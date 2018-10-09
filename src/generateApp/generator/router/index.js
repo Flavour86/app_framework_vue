@@ -24,7 +24,7 @@ export default function generateRouter (config, routes) {
         path,
         name,
         meta: {
-          requireAuth: permission > -1,
+          requireAuth: !!permission,
           index
         },
         component: generateComponent(page)

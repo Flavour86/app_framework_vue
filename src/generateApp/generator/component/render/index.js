@@ -1,5 +1,6 @@
 import {noop} from '@/utils/helpers'
 import isArray from 'lodash/isArray'
+import generateProps from './props'
 
 function generateEvent (onConfig, vm, config) {
   if (!onConfig.generateEvent) {
@@ -17,15 +18,18 @@ function generateEvent (onConfig, vm, config) {
 
 function generateComs (h, components, vm, config) {
   return components.map(com => {
-    let {name, slot, on, ...other} = com
+    let {name, slot, on, props, ...other} = com
     if (on) {
       on = generateEvent(on, vm, config)
       other.on = on
     }
+    if (props) {
+      other.props = generateProps(props, config)
+    }
     if (slot.type === 'components' && isArray(slot.value)) {
-      return h(name, {...other}, generateComs(h, slot.value, vm, config))
+      return h(name, other, generateComs(h, slot.value, vm, config))
     } else {
-      return h(name, {...other}, slot.value)
+      return h(name, other, slot.value)
     }
   })
 }

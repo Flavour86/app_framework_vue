@@ -1,13 +1,17 @@
-import generateRender from './render'
+import generateRender from './render/'
 import generateMethods from './method'
 import generateLifecycle from './lifecycle'
+import generateDataFn from './data'
 
-export default function (config) {
+export default function (page) {
+  const {name} = page
   return {
-    ...generateLifecycle(config),
-    methods: generateMethods(config),
+    name,
+    data: generateDataFn(page),
+    ...generateLifecycle(page),
+    methods: generateMethods(page),
     render (h) {
-      return generateRender(config, this)(h)
+      return generateRender(page, this)(h)
     }
   }
 }

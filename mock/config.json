@@ -1,4 +1,5 @@
 {
+  "mode": "configuration",
   "pages": [
     {
       "name": "home",
@@ -11,12 +12,15 @@
         {
           "name": "hello-world",
           "props": {
-            "msg": "我是home的helloWord组件",
+            "msg": {
+              "type": "variable",
+              "value": "126"
+            },
             "msg1": "msgmsgmsg111",
             "msg2": "msgmsgmsg222"
           },
           "slot": {
-            "type": "String",
+            "type": "text",
             "value": "aaaaa"
           }
         },
@@ -35,7 +39,7 @@
               {
                 "name": "Button",
                 "slot": {
-                  "type": "String",
+                  "type": "text",
                   "value": "我是home页面组件的子组件"
                 }
               }
@@ -53,7 +57,7 @@
             }
           },
           "slot": {
-            "type": "String",
+            "type": "text",
             "value": "我是home页面的按钮2"
           }
         }
@@ -70,8 +74,7 @@
       "methods": [
         {
           "type": "event",
-          "value": "attend",
-          "params": []
+          "value": "attend"
         }
       ],
       "variable": [{
@@ -88,9 +91,15 @@
         "isShare": false
       }, {
         "id": "125",
-        "props": "listDates1",
+        "props": "pageGo2",
         "type": "String",
         "value": "about",
+        "isShare": false
+      }, {
+        "id": "126",
+        "props": "helloMsg",
+        "type": "String",
+        "value": "我是Home的helloWord组件的msg属性",
         "isShare": false
       }]
     },

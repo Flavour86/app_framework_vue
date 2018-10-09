@@ -4,7 +4,8 @@
 ```
 {
   pages: [],  // 所有的page界面相关的配置
-  parsered: true  // 如果解析过了需要打个标记，以便防止重复解析
+  parsered: true,  // 如果解析过了需要打个标记，以便防止重复解析
+  mode: "configuration" // 应用生成引擎的模式， configuration 为配置模式，适用于线上配置， development为开发模式，适用于开发人员做一些较为复杂的自定义性质较强的项目
 }
 ```
 

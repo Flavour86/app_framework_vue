@@ -1,0 +1,5601 @@
+{
+  "attrs": [{
+      "code": "Width",
+      "value": "1524"
+    },
+    {
+      "code": "Height",
+      "value": "692"
+    },
+    {
+      "code": "Text",
+      "value": ""
+    },
+    {
+      "code": "PaddingTop",
+      "value": "0"
+    },
+    {
+      "code": "PaddingLeft",
+      "value": "0"
+    },
+    {
+      "code": "PaddingBottom",
+      "value": "0"
+    },
+    {
+      "code": "PaddingRight",
+      "value": "0"
+    },
+    {
+      "code": "IsSelector",
+      "value": "false"
+    },
+    {
+      "code": "BackColor",
+      "value": ""
+    }],
+  "controls": [{
+    "pid": "",
+    "id": "Panel952609",
+    "code": "Panel",
+    "name": "PanelLeft",
+    "path": "_Panel952609",
+    "attrs": [{
+      "code": "Name",
+      "value": "PanelLeft"
+    },
+      {
+        "code": "Text",
+        "value": ""
+      },
+      {
+        "code": "X",
+        "value": "0"
+      },
+      {
+        "code": "Y",
+        "value": "0"
+      },
+      {
+        "code": "Width",
+        "value": "198"
+      },
+      {
+        "code": "Height",
+        "value": "677"
+      },
+      {
+        "code": "Anchor",
+        "value": "Top,Left"
+      },
+      {
+        "code": "Dock",
+        "value": "Left"
+      },
+      {
+        "code": "Enabled",
+        "value": "true"
+      },
+      {
+        "code": "Visible",
+        "value": "true"
+      },
+      {
+        "code": "Remark",
+        "value": ""
+      },
+      {
+        "code": "BackColor",
+        "value": ""
+      },
+      {
+        "code": "PaddingTop",
+        "value": "0"
+      },
+      {
+        "code": "PaddingLeft",
+        "value": "0"
+      },
+      {
+        "code": "PaddingBottom",
+        "value": "0"
+      },
+      {
+        "code": "PaddingRight",
+        "value": "0"
+      }],
+    "events": [],
+    "index": 0
+  },
+    {
+      "pid": "",
+      "id": "Panel1526970972517",
+      "code": "Panel",
+      "name": "PanelRight",
+      "path": "_Panel1526970972517",
+      "attrs": [{
+        "code": "Name",
+        "value": "PanelRight"
+      },
+        {
+          "code": "Text",
+          "value": ""
+        },
+        {
+          "code": "X",
+          "value": "200"
+        },
+        {
+          "code": "Y",
+          "value": "0"
+        },
+        {
+          "code": "Width",
+          "value": "1048"
+        },
+        {
+          "code": "Height",
+          "value": "664"
+        },
+        {
+          "code": "Anchor",
+          "value": "Top,Left"
+        },
+        {
+          "code": "Dock",
+          "value": "Fill"
+        },
+        {
+          "code": "Enabled",
+          "value": "true"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Remark",
+          "value": ""
+        },
+        {
+          "code": "BackColor",
+          "value": ""
+        },
+        {
+          "code": "PaddingTop",
+          "value": "0"
+        },
+        {
+          "code": "PaddingLeft",
+          "value": "0"
+        },
+        {
+          "code": "PaddingBottom",
+          "value": "0"
+        },
+        {
+          "code": "PaddingRight",
+          "value": "0"
+        }],
+      "events": [],
+      "index": 1
+    },
+    {
+      "pid": "SearchPanel519668",
+      "id": "Button1526971986672",
+      "code": "Button",
+      "name": "ButtonSearch",
+      "path": "_SearchPanel519668_Button1526971986672",
+      "attrs": [{
+        "code": "Name",
+        "value": "ButtonSearch"
+      },
+        {
+          "code": "Text",
+          "value": "查询"
+        },
+        {
+          "code": "X",
+          "value": "896"
+        },
+        {
+          "code": "Y",
+          "value": "14"
+        },
+        {
+          "code": "Width",
+          "value": "76"
+        },
+        {
+          "code": "Height",
+          "value": "25"
+        },
+        {
+          "code": "Anchor",
+          "value": "Top,Left"
+        },
+        {
+          "code": "Dock",
+          "value": "None"
+        },
+        {
+          "code": "Enabled",
+          "value": "true"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "TabIndex",
+          "value": "11"
+        },
+        {
+          "code": "Image",
+          "value": ""
+        }],
+      "events": [{
+        "id": "Event1526977728906",
+        "code": "OnClick",
+        "actions": [{
+          "id": "Method1531896599450",
+          "type": "method",
+          "method": {
+            "id": "Method1531896492402",
+            "name": "查询流程列表"
+          },
+          "children": []
+        }]
+      }],
+      "index": 0
+    },
+    {
+      "pid": "SearchPanel519668",
+      "id": "Button1526972198883",
+      "code": "Button",
+      "name": "ButtonReset",
+      "path": "_SearchPanel519668_Button1526972198883",
+      "attrs": [{
+        "code": "Name",
+        "value": "ButtonReset"
+      },
+        {
+          "code": "Text",
+          "value": "重置"
+        },
+        {
+          "code": "X",
+          "value": "896"
+        },
+        {
+          "code": "Y",
+          "value": "46"
+        },
+        {
+          "code": "Width",
+          "value": "78"
+        },
+        {
+          "code": "Height",
+          "value": "25"
+        },
+        {
+          "code": "Anchor",
+          "value": "Top,Left"
+        },
+        {
+          "code": "Dock",
+          "value": "None"
+        },
+        {
+          "code": "Enabled",
+          "value": "true"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "TabIndex",
+          "value": "16"
+        },
+        {
+          "code": "Image",
+          "value": ""
+        }],
+      "events": [{
+        "id": "Event1526977742786",
+        "code": "OnClick",
+        "actions": [{
+          "id": "Action1526977748553",
+          "type": "action",
+          "action": {
+            "code": "ResetQueryCondition",
+            "name": "重置查询条件",
+            "attrs": [{
+              "code": "QueryControl",
+              "value": "SearchPanel519668"
+            }]
+          },
+          "children": []
+        }]
+      }],
+      "index": 1
+    },
+    {
+      "pid": "SearchPanel519668",
+      "id": "TextBox1526971836545",
+      "code": "TextBox",
+      "name": "TextBoxAll",
+      "path": "_SearchPanel519668_TextBox1526971836545",
+      "attrs": [{
+        "code": "Name",
+        "value": "TextBoxAll"
+      },
+        {
+          "code": "Text",
+          "value": ""
+        },
+        {
+          "code": "X",
+          "value": "6"
+        },
+        {
+          "code": "Y",
+          "value": "10"
+        },
+        {
+          "code": "Width",
+          "value": "248"
+        },
+        {
+          "code": "Height",
+          "value": "23"
+        },
+        {
+          "code": "Anchor",
+          "value": "Top,Left"
+        },
+        {
+          "code": "Dock",
+          "value": "None"
+        },
+        {
+          "code": "Enabled",
+          "value": "true"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "ReadOnly",
+          "value": "false"
+        },
+        {
+          "code": "TabIndex",
+          "value": "8"
+        },
+        {
+          "code": "Field",
+          "value": "FUZZY_QUERY"
+        },
+        {
+          "code": "Remark",
+          "value": ""
+        },
+        {
+          "code": "Label",
+          "value": "模糊查询："
+        },
+        {
+          "code": "Hit",
+          "value": ""
+        },
+        {
+          "code": "QueryMode",
+          "value": ""
+        },
+        {
+          "code": "Required",
+          "value": "false"
+        },
+        {
+          "code": "ValidateFormat",
+          "value": ""
+        },
+        {
+          "code": "Multiline",
+          "value": "false"
+        },
+        {
+          "code": "ForeColor",
+          "value": ""
+        },
+        {
+          "code": "FontFamily",
+          "value": "宋体"
+        },
+        {
+          "code": "FontSize",
+          "value": "10.5"
+        },
+        {
+          "code": "FontBold",
+          "value": "true"
+        },
+        {
+          "code": "RegexString",
+          "value": ""
+        }],
+      "events": [],
+      "index": 2
+    },
+    {
+      "pid": "SearchPanel519668",
+      "id": "TextBox872167",
+      "code": "TextBox",
+      "name": "TextBoxSBR",
+      "path": "_Panel1526970972517_SearchPanel519668_TextBox872167",
+      "attrs": [{
+        "code": "Name",
+        "value": "TextBoxSBR"
+      },
+        {
+          "code": "Text",
+          "value": ""
+        },
+        {
+          "code": "X",
+          "value": "280"
+        },
+        {
+          "code": "Y",
+          "value": "10"
+        },
+        {
+          "code": "Width",
+          "value": "250"
+        },
+        {
+          "code": "Height",
+          "value": "25"
+        },
+        {
+          "code": "Anchor",
+          "value": "Top,Left"
+        },
+        {
+          "code": "Dock",
+          "value": "None"
+        },
+        {
+          "code": "Enabled",
+          "value": "true"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "TabIndex",
+          "value": "8"
+        },
+        {
+          "code": "Field",
+          "value": "CREATE_USER"
+        },
+        {
+          "code": "Remark",
+          "value": ""
+        },
+        {
+          "code": "Label",
+          "value": "申报人："
+        },
+        {
+          "code": "Hit",
+          "value": ""
+        },
+        {
+          "code": "QueryMode",
+          "value": ""
+        },
+        {
+          "code": "Required",
+          "value": "false"
+        },
+        {
+          "code": "ValidateFormat",
+          "value": ""
+        },
+        {
+          "code": "Multiline",
+          "value": "false"
+        },
+        {
+          "code": "ForeColor",
+          "value": ""
+        },
+        {
+          "code": "FontFamily",
+          "value": "宋体"
+        },
+        {
+          "code": "FontSize",
+          "value": "10.5"
+        },
+        {
+          "code": "FontBold",
+          "value": "false"
+        },
+        {
+          "code": "RegexString",
+          "value": ""
+        }],
+      "events": [],
+      "index": 3
+    },
+    {
+      "pid": "SearchPanel519668",
+      "id": "TextBox155897",
+      "code": "TextBox",
+      "name": "TextBoxLXR",
+      "path": "_Panel1526970972517_SearchPanel519668_TextBox155897",
+      "attrs": [{
+        "code": "Name",
+        "value": "TextBoxLXR"
+      },
+        {
+          "code": "Text",
+          "value": ""
+        },
+        {
+          "code": "X",
+          "value": "572"
+        },
+        {
+          "code": "Y",
+          "value": "10"
+        },
+        {
+          "code": "Width",
+          "value": "250"
+        },
+        {
+          "code": "Height",
+          "value": "25"
+        },
+        {
+          "code": "Anchor",
+          "value": "Top,Left"
+        },
+        {
+          "code": "Dock",
+          "value": "None"
+        },
+        {
+          "code": "Enabled",
+          "value": "true"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "TabIndex",
+          "value": "8"
+        },
+        {
+          "code": "Field",
+          "value": "CONTACT_NAME"
+        },
+        {
+          "code": "Remark",
+          "value": ""
+        },
+        {
+          "code": "Label",
+          "value": "联系人："
+        },
+        {
+          "code": "Hit",
+          "value": ""
+        },
+        {
+          "code": "QueryMode",
+          "value": ""
+        },
+        {
+          "code": "Required",
+          "value": "false"
+        },
+        {
+          "code": "ValidateFormat",
+          "value": ""
+        },
+        {
+          "code": "Multiline",
+          "value": "false"
+        },
+        {
+          "code": "ForeColor",
+          "value": ""
+        },
+        {
+          "code": "FontFamily",
+          "value": "宋体"
+        },
+        {
+          "code": "FontSize",
+          "value": "10.5"
+        },
+        {
+          "code": "FontBold",
+          "value": "false"
+        },
+        {
+          "code": "RegexString",
+          "value": ""
+        }],
+      "events": [],
+      "index": 4
+    },
+    {
+      "pid": "SearchPanel519668",
+      "id": "TextBox297429",
+      "code": "TextBox",
+      "name": "TextBoxLXDH",
+      "path": "_Panel1526970972517_SearchPanel519668_TextBox297429",
+      "attrs": [{
+        "code": "Name",
+        "value": "TextBoxLXDH"
+      },
+        {
+          "code": "Text",
+          "value": ""
+        },
+        {
+          "code": "X",
+          "value": "6"
+        },
+        {
+          "code": "Y",
+          "value": "47"
+        },
+        {
+          "code": "Width",
+          "value": "248"
+        },
+        {
+          "code": "Height",
+          "value": "23"
+        },
+        {
+          "code": "Anchor",
+          "value": "Top,Left"
+        },
+        {
+          "code": "Dock",
+          "value": "None"
+        },
+        {
+          "code": "Enabled",
+          "value": "true"
+        },
+        {
+          "code": "Visible",
+          "value": "false"
+        },
+        {
+          "code": "TabIndex",
+          "value": "15"
+        },
+        {
+          "code": "Field",
+          "value": "CONTACT_TEL"
+        },
+        {
+          "code": "Remark",
+          "value": ""
+        },
+        {
+          "code": "Label",
+          "value": "联系电话："
+        },
+        {
+          "code": "Hit",
+          "value": ""
+        },
+        {
+          "code": "QueryMode",
+          "value": ""
+        },
+        {
+          "code": "Required",
+          "value": "false"
+        },
+        {
+          "code": "ValidateFormat",
+          "value": ""
+        },
+        {
+          "code": "Multiline",
+          "value": "false"
+        },
+        {
+          "code": "ForeColor",
+          "value": ""
+        },
+        {
+          "code": "FontFamily",
+          "value": "宋体"
+        },
+        {
+          "code": "FontSize",
+          "value": "10.5"
+        },
+        {
+          "code": "FontBold",
+          "value": "false"
+        },
+        {
+          "code": "RegexString",
+          "value": ""
+        }],
+      "events": [],
+      "index": 5
+    },
+    {
+      "pid": "SearchPanel519668",
+      "id": "TextBox266590",
+      "code": "TextBox",
+      "name": "TextBoxLXDZ",
+      "path": "_Panel1526970972517_SearchPanel519668_TextBox266590",
+      "attrs": [{
+        "code": "Name",
+        "value": "TextBoxLXDZ"
+      },
+        {
+          "code": "Text",
+          "value": ""
+        },
+        {
+          "code": "X",
+          "value": "281"
+        },
+        {
+          "code": "Y",
+          "value": "47"
+        },
+        {
+          "code": "Width",
+          "value": "542"
+        },
+        {
+          "code": "Height",
+          "value": "25"
+        },
+        {
+          "code": "Anchor",
+          "value": "Top,Left"
+        },
+        {
+          "code": "Dock",
+          "value": "None"
+        },
+        {
+          "code": "Enabled",
+          "value": "true"
+        },
+        {
+          "code": "Visible",
+          "value": "false"
+        },
+        {
+          "code": "TabIndex",
+          "value": "15"
+        },
+        {
+          "code": "Field",
+          "value": "CONTACT_ADDR"
+        },
+        {
+          "code": "Remark",
+          "value": ""
+        },
+        {
+          "code": "Label",
+          "value": "联系地址："
+        },
+        {
+          "code": "Hit",
+          "value": ""
+        },
+        {
+          "code": "QueryMode",
+          "value": ""
+        },
+        {
+          "code": "Required",
+          "value": "false"
+        },
+        {
+          "code": "ValidateFormat",
+          "value": ""
+        },
+        {
+          "code": "Multiline",
+          "value": "false"
+        },
+        {
+          "code": "ForeColor",
+          "value": ""
+        },
+        {
+          "code": "FontFamily",
+          "value": "宋体"
+        },
+        {
+          "code": "FontSize",
+          "value": "10.5"
+        },
+        {
+          "code": "FontBold",
+          "value": "false"
+        },
+        {
+          "code": "RegexString",
+          "value": ""
+        }],
+      "events": [],
+      "index": 6
+    },
+    {
+      "pid": "SearchPanel519668",
+      "id": "TextBox172372",
+      "code": "TextBox",
+      "name": "TextBoxQQBT",
+      "path": "_Panel1526970972517_SearchPanel519668_TextBox172372",
+      "attrs": [{
+        "code": "Name",
+        "value": "TextBoxQQBT"
+      },
+        {
+          "code": "Text",
+          "value": ""
+        },
+        {
+          "code": "X",
+          "value": "6"
+        },
+        {
+          "code": "Y",
+          "value": "85"
+        },
+        {
+          "code": "Width",
+          "value": "540"
+        },
+        {
+          "code": "Height",
+          "value": "23"
+        },
+        {
+          "code": "Anchor",
+          "value": "Top,Left"
+        },
+        {
+          "code": "Dock",
+          "value": "None"
+        },
+        {
+          "code": "Enabled",
+          "value": "true"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "TabIndex",
+          "value": "15"
+        },
+        {
+          "code": "Field",
+          "value": "WORK_HEADER"
+        },
+        {
+          "code": "Remark",
+          "value": ""
+        },
+        {
+          "code": "Label",
+          "value": "请求标题："
+        },
+        {
+          "code": "Hit",
+          "value": ""
+        },
+        {
+          "code": "QueryMode",
+          "value": ""
+        },
+        {
+          "code": "Required",
+          "value": "false"
+        },
+        {
+          "code": "ValidateFormat",
+          "value": ""
+        },
+        {
+          "code": "Multiline",
+          "value": "false"
+        },
+        {
+          "code": "ForeColor",
+          "value": ""
+        },
+        {
+          "code": "FontFamily",
+          "value": "宋体"
+        },
+        {
+          "code": "FontSize",
+          "value": "10.5"
+        },
+        {
+          "code": "FontBold",
+          "value": "false"
+        },
+        {
+          "code": "RegexString",
+          "value": ""
+        }],
+      "events": [],
+      "index": 7
+    },
+    {
+      "pid": "DataGrid1526971240197",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_Panel1526971169831_DataGrid1526971240197_DataGridViewTextBoxColumn1526976794448",
+      "id": "DataGridViewTextBoxColumn1526976794448",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column水表ID",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column水表ID"
+      },
+        {
+          "code": "HeaderText",
+          "value": "水表ID"
+        },
+        {
+          "code": "SortType",
+          "value": "0"
+        },
+        {
+          "code": "SortOrder",
+          "value": ""
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "false"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "true"
+        },
+        {
+          "code": "Field",
+          "value": "LIST_ID"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971240197",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_Panel1526971169831_DataGrid1526971240197_DataGridViewTextBoxColumn1526976791887",
+      "id": "DataGridViewTextBoxColumn1526976791887",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column所属区域",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column所属区域"
+      },
+        {
+          "code": "HeaderText",
+          "value": "所属区域"
+        },
+        {
+          "code": "SortType",
+          "value": "0"
+        },
+        {
+          "code": "SortOrder",
+          "value": ""
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "AREA_NAME"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971240197",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_Panel1526971169831_DataGrid1526971240197_DataGridViewTextBoxColumn1526976792079",
+      "id": "DataGridViewTextBoxColumn1526976792079",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column用户编号",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column用户编号"
+      },
+        {
+          "code": "HeaderText",
+          "value": "用户编号"
+        },
+        {
+          "code": "SortType",
+          "value": "0"
+        },
+        {
+          "code": "SortOrder",
+          "value": ""
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "ARCH_NO"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971240197",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_Panel1526971169831_DataGrid1526971240197_DataGridViewTextBoxColumn1526976789145",
+      "id": "DataGridViewTextBoxColumn1526976789145",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column用户名称",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column用户名称"
+      },
+        {
+          "code": "HeaderText",
+          "value": "用户名称"
+        },
+        {
+          "code": "SortType",
+          "value": "0"
+        },
+        {
+          "code": "SortOrder",
+          "value": ""
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "USER_NAME"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971240197",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_Panel1526971169831_DataGrid1526971240197_DataGridViewTextBoxColumn1526976789510",
+      "id": "DataGridViewTextBoxColumn1526976789510",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column联系人",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column联系人"
+      },
+        {
+          "code": "HeaderText",
+          "value": "联系人"
+        },
+        {
+          "code": "SortType",
+          "value": "0"
+        },
+        {
+          "code": "SortOrder",
+          "value": ""
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "CONTACT_NAME"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971240197",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_Panel1526971169831_DataGrid1526971240197_DataGridViewTextBoxColumn1526976789696",
+      "id": "DataGridViewTextBoxColumn1526976789696",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column联系电话",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column联系电话"
+      },
+        {
+          "code": "HeaderText",
+          "value": "联系电话"
+        },
+        {
+          "code": "SortType",
+          "value": "0"
+        },
+        {
+          "code": "SortOrder",
+          "value": ""
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "CONTACT_PHONE"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971240197",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_Panel1526971169831_DataGrid1526971240197_DataGridViewTextBoxColumn1526976792281",
+      "id": "DataGridViewTextBoxColumn1526976792281",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column联系地址",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column联系地址"
+      },
+        {
+          "code": "HeaderText",
+          "value": "联系地址"
+        },
+        {
+          "code": "SortType",
+          "value": "0"
+        },
+        {
+          "code": "SortOrder",
+          "value": ""
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "CONTACT_ADDRESS"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971240197",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_Panel1526971169831_DataGrid1526971240197_DataGridViewTextBoxColumn1526976791128",
+      "id": "DataGridViewTextBoxColumn1526976791128",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column用户类型",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column用户类型"
+      },
+        {
+          "code": "HeaderText",
+          "value": "用户类型"
+        },
+        {
+          "code": "SortType",
+          "value": "0"
+        },
+        {
+          "code": "SortOrder",
+          "value": ""
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "USER_TYPE_NAME"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971240197",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_Panel1526971169831_DataGrid1526971240197_DataGridViewTextBoxColumn1526976790050",
+      "id": "DataGridViewTextBoxColumn1526976790050",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column水表口径",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column水表口径"
+      },
+        {
+          "code": "HeaderText",
+          "value": "水表口径"
+        },
+        {
+          "code": "SortType",
+          "value": "0"
+        },
+        {
+          "code": "SortOrder",
+          "value": ""
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "CALIBRE_NAME"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971240197",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_Panel1526971169831_DataGrid1526971240197_DataGridViewTextBoxColumn1526976790232",
+      "id": "DataGridViewTextBoxColumn1526976790232",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column用水性质",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column用水性质"
+      },
+        {
+          "code": "HeaderText",
+          "value": "用水性质"
+        },
+        {
+          "code": "SortType",
+          "value": "0"
+        },
+        {
+          "code": "SortOrder",
+          "value": ""
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "WATER_PROPERTIES_NAME"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971240197",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_Panel1526971169831_DataGrid1526971240197_DataGridViewTextBoxColumn1531821903498",
+      "id": "DataGridViewTextBoxColumn1531821903498",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column安装性质",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column安装性质"
+      },
+        {
+          "code": "HeaderText",
+          "value": "安装性质"
+        },
+        {
+          "code": "SortType",
+          "value": ""
+        },
+        {
+          "code": "SortOrder",
+          "value": "0"
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "INSTALL_PROPERTIES_NAME"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971240197",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_Panel1526971169831_DataGrid1526971240197_DataGridViewTextBoxColumn1531822108424",
+      "id": "DataGridViewTextBoxColumn1531822108424",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column水表用途",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column水表用途"
+      },
+        {
+          "code": "HeaderText",
+          "value": "水表用途"
+        },
+        {
+          "code": "SortType",
+          "value": ""
+        },
+        {
+          "code": "SortOrder",
+          "value": "0"
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "TAB_USE_NAME"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971240197",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_Panel1526971169831_DataGrid1526971240197_DataGridViewTextBoxColumn1526976790407",
+      "id": "DataGridViewTextBoxColumn1526976790407",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column水表产商",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column水表产商"
+      },
+        {
+          "code": "HeaderText",
+          "value": "水表产商"
+        },
+        {
+          "code": "SortType",
+          "value": "0"
+        },
+        {
+          "code": "SortOrder",
+          "value": ""
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "TAB_FACTORY_NAME"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971240197",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_Panel1526971169831_DataGrid1526971240197_DataGridViewTextBoxColumn1531822306232",
+      "id": "DataGridViewTextBoxColumn1531822306232",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column水表类型",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column水表类型"
+      },
+        {
+          "code": "HeaderText",
+          "value": "水表类型"
+        },
+        {
+          "code": "SortType",
+          "value": ""
+        },
+        {
+          "code": "SortOrder",
+          "value": "0"
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "TAB_TYPE_NAME"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971240197",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_Panel1526971169831_DataGrid1526971240197_DataGridViewTextBoxColumn1526976790591",
+      "id": "DataGridViewTextBoxColumn1526976790591",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column表身号",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column表身号"
+      },
+        {
+          "code": "HeaderText",
+          "value": "表身号"
+        },
+        {
+          "code": "SortType",
+          "value": "0"
+        },
+        {
+          "code": "SortOrder",
+          "value": ""
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "TAB_NO"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971240197",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_Panel1526971169831_DataGrid1526971240197_DataGridViewTextBoxColumn1526976791319",
+      "id": "DataGridViewTextBoxColumn1526976791319",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column水表底数",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column水表底数"
+      },
+        {
+          "code": "HeaderText",
+          "value": "水表底数"
+        },
+        {
+          "code": "SortType",
+          "value": "0"
+        },
+        {
+          "code": "SortOrder",
+          "value": ""
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "BOTTOM_COUNT"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971240197",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_Panel1526971169831_DataGrid1526971240197_DataGridViewTextBoxColumn1526976791504",
+      "id": "DataGridViewTextBoxColumn1526976791504",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column统一社会信用代码",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column统一社会信用代码"
+      },
+        {
+          "code": "HeaderText",
+          "value": "统一社会信用代码"
+        },
+        {
+          "code": "SortType",
+          "value": "0"
+        },
+        {
+          "code": "SortOrder",
+          "value": ""
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "CREDIT_CODE"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971240197",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_Panel1526971169831_DataGrid1526971240197_DataGridViewTextBoxColumn1526976790767",
+      "id": "DataGridViewTextBoxColumn1526976790767",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column证件类型",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column证件类型"
+      },
+        {
+          "code": "HeaderText",
+          "value": "证件类型"
+        },
+        {
+          "code": "SortType",
+          "value": "0"
+        },
+        {
+          "code": "SortOrder",
+          "value": ""
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "CERTIFICATES_TYPE_NAME"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971240197",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_Panel1526971169831_DataGrid1526971240197_DataGridViewTextBoxColumn1526976790944",
+      "id": "DataGridViewTextBoxColumn1526976790944",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column证件号码",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column证件号码"
+      },
+        {
+          "code": "HeaderText",
+          "value": "证件号码"
+        },
+        {
+          "code": "SortType",
+          "value": "0"
+        },
+        {
+          "code": "SortOrder",
+          "value": ""
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "CERTIFICATES_NO"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971240197",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_Panel1526971169831_DataGrid1526971240197_DataGridViewTextBoxColumn1526976791678",
+      "id": "DataGridViewTextBoxColumn1526976791678",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column缴费方式",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column缴费方式"
+      },
+        {
+          "code": "HeaderText",
+          "value": "缴费方式"
+        },
+        {
+          "code": "SortType",
+          "value": "0"
+        },
+        {
+          "code": "SortOrder",
+          "value": ""
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "PAY_TYPE_NAME"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971240197",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_Panel1526971169831_DataGrid1526971240197_DataGridViewTextBoxColumn1526976794623",
+      "id": "DataGridViewTextBoxColumn1526976794623",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column用水人数",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column用水人数"
+      },
+        {
+          "code": "HeaderText",
+          "value": "用水人数"
+        },
+        {
+          "code": "SortType",
+          "value": "0"
+        },
+        {
+          "code": "SortOrder",
+          "value": ""
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "WATER_PEOPLE"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971240197",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_Panel1526971169831_DataGrid1526971240197_DataGridViewTextBoxColumn1526976795015",
+      "id": "DataGridViewTextBoxColumn1526976795015",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column备注",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column备注"
+      },
+        {
+          "code": "HeaderText",
+          "value": "备注"
+        },
+        {
+          "code": "SortType",
+          "value": "0"
+        },
+        {
+          "code": "SortOrder",
+          "value": ""
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "REMARK"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971240197",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_Panel1526971169831_DataGrid1526971240197_DataGridViewTextBoxColumn1526976794823",
+      "id": "DataGridViewTextBoxColumn1526976794823",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column添加时间",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column添加时间"
+      },
+        {
+          "code": "HeaderText",
+          "value": "添加时间"
+        },
+        {
+          "code": "SortType",
+          "value": "0"
+        },
+        {
+          "code": "SortOrder",
+          "value": ""
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "OPERATE_TIME"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "Panel1526970972517",
+      "id": "Panel12473",
+      "code": "Panel",
+      "name": "PanelRightTop",
+      "path": "_Panel1526970972517_Panel12473",
+      "attrs": [{
+        "code": "Name",
+        "value": "PanelRightTop"
+      },
+        {
+          "code": "Text",
+          "value": ""
+        },
+        {
+          "code": "X",
+          "value": "0"
+        },
+        {
+          "code": "Y",
+          "value": "1"
+        },
+        {
+          "code": "Width",
+          "value": "1044"
+        },
+        {
+          "code": "Height",
+          "value": "345"
+        },
+        {
+          "code": "Anchor",
+          "value": "Top,Left"
+        },
+        {
+          "code": "Dock",
+          "value": "Top"
+        },
+        {
+          "code": "Enabled",
+          "value": "true"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Remark",
+          "value": ""
+        },
+        {
+          "code": "BackColor",
+          "value": ""
+        },
+        {
+          "code": "PaddingTop",
+          "value": "0"
+        },
+        {
+          "code": "PaddingLeft",
+          "value": "0"
+        },
+        {
+          "code": "PaddingBottom",
+          "value": "0"
+        },
+        {
+          "code": "PaddingRight",
+          "value": "0"
+        }],
+      "events": [],
+      "index": 0
+    },
+    {
+      "pid": "Panel1526970972517",
+      "id": "Panel1526971169831",
+      "code": "Panel",
+      "name": "PanelChildren",
+      "path": "_Panel1526970972517_Panel1526971169831",
+      "attrs": [{
+        "code": "Name",
+        "value": "PanelChildren"
+      },
+        {
+          "code": "Text",
+          "value": ""
+        },
+        {
+          "code": "X",
+          "value": "0"
+        },
+        {
+          "code": "Y",
+          "value": "347"
+        },
+        {
+          "code": "Width",
+          "value": "1044"
+        },
+        {
+          "code": "Height",
+          "value": "318"
+        },
+        {
+          "code": "Anchor",
+          "value": "Top,Left,Right,Bottom"
+        },
+        {
+          "code": "Dock",
+          "value": "Fill"
+        },
+        {
+          "code": "Enabled",
+          "value": "true"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Remark",
+          "value": ""
+        },
+        {
+          "code": "BackColor",
+          "value": ""
+        },
+        {
+          "code": "PaddingTop",
+          "value": "3"
+        },
+        {
+          "code": "PaddingLeft",
+          "value": "5"
+        },
+        {
+          "code": "PaddingBottom",
+          "value": "0"
+        },
+        {
+          "code": "PaddingRight",
+          "value": "0"
+        }],
+      "events": [],
+      "index": 1
+    },
+    {
+      "pid": "Panel12473",
+      "id": "SearchPanel519668",
+      "code": "SearchPanel",
+      "name": "SearchPanelQuery",
+      "path": "_Panel1526970972517_Panel12473_SearchPanel519668",
+      "attrs": [{
+        "code": "Name",
+        "value": "SearchPanelQuery"
+      },
+        {
+          "code": "Text",
+          "value": ""
+        },
+        {
+          "code": "X",
+          "value": "5"
+        },
+        {
+          "code": "Y",
+          "value": "0"
+        },
+        {
+          "code": "Width",
+          "value": "1040"
+        },
+        {
+          "code": "Height",
+          "value": "114"
+        },
+        {
+          "code": "Anchor",
+          "value": "Top,Left,Right"
+        },
+        {
+          "code": "Dock",
+          "value": "None"
+        },
+        {
+          "code": "Enabled",
+          "value": "true"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "SearchControl",
+          "value": "Button1526971986672"
+        },
+        {
+          "code": "ResetControl",
+          "value": "Button1526972198883"
+        },
+        {
+          "code": "FlowPartWidth",
+          "value": ""
+        },
+        {
+          "code": "IsAdaptiveHeight",
+          "value": "false"
+        },
+        {
+          "code": "IsItemAdaptiveWidth",
+          "value": "false"
+        },
+        {
+          "code": "InitItemWidth",
+          "value": ""
+        },
+        {
+          "code": "InitItemHeight",
+          "value": ""
+        }],
+      "events": [],
+      "index": 0
+    },
+    {
+      "pid": "Panel12473",
+      "id": "DataGrid1526971156167",
+      "code": "DataGrid",
+      "name": "GridList",
+      "path": "_Panel1526970972517_Panel12473_DataGrid1526971156167",
+      "attrs": [{
+        "code": "Name",
+        "value": "GridList"
+      },
+        {
+          "code": "X",
+          "value": "5"
+        },
+        {
+          "code": "Y",
+          "value": "121"
+        },
+        {
+          "code": "Width",
+          "value": "1040"
+        },
+        {
+          "code": "Height",
+          "value": "224"
+        },
+        {
+          "code": "Anchor",
+          "value": "Top,Left,Right"
+        },
+        {
+          "code": "Dock",
+          "value": "None"
+        },
+        {
+          "code": "Enabled",
+          "value": "true"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Remark",
+          "value": ""
+        },
+        {
+          "code": "IsPagination",
+          "value": "true"
+        },
+        {
+          "code": "IsCheckBox",
+          "value": "false"
+        },
+        {
+          "code": "IsNumberColumn",
+          "value": "true"
+        },
+        {
+          "code": "HasSumPanel",
+          "value": "false"
+        },
+        {
+          "code": "DataSource",
+          "value": "P_BZ_MAIN_QUREY"
+        },
+        {
+          "code": "Field",
+          "value": ""
+        },
+        {
+          "code": "QueryControl",
+          "value": "SearchPanel519668"
+        },
+        {
+          "code": "TreeControl",
+          "value": "TreeViewer327990"
+        },
+        {
+          "code": "MainGridControl",
+          "value": ""
+        },
+        {
+          "code": "MainKey",
+          "value": ""
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "RowStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "RowStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "RowCellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "IsCommitTotal",
+          "value": "false"
+        },
+        {
+          "code": "IsClearSelection",
+          "value": "false"
+        },
+        {
+          "code": "IsSelectBefore",
+          "value": "false"
+        }],
+      "events": [{
+        "id": "Event1526977979976",
+        "code": "OnSelectionChanged",
+        "actions": [{
+          "id": "Action1526977998296",
+          "type": "action",
+          "action": {
+            "code": "SetVariableValue",
+            "name": "设置变量值",
+            "attrs": [{
+              "code": "VariableKey",
+              "value": "Variable1526977779995"
+            },
+              {
+                "code": "ValueFrom",
+                "value": "ControlValue"
+              },
+              {
+                "code": "FromStaticValue",
+                "value": ""
+              },
+              {
+                "code": "FromVariableKey",
+                "value": ""
+              },
+              {
+                "code": "FromEnterParameterKey",
+                "value": ""
+              },
+              {
+                "code": "FromControlValue",
+                "value": "DataGrid1526971156167"
+              },
+              {
+                "code": "FromExpression",
+                "value": ""
+              },
+              {
+                "code": "FromTreeControl",
+                "value": ""
+              },
+              {
+                "code": "FromAttribute",
+                "value": ""
+              }]
+          },
+          "children": []
+        },
+          {
+            "id": "Condition1526978093669",
+            "type": "condition",
+            "condition": {
+              "items": [{
+                "id": "ConditionItem1526978077705",
+                "code": "Variable",
+                "name": "变量判断",
+                "attrs": [{
+                  "code": "VariableKey",
+                  "value": "Variable1526977779995"
+                },
+                  {
+                    "code": "Compare",
+                    "value": "=="
+                  },
+                  {
+                    "code": "ToValue",
+                    "value": ""
+                  }]
+              }],
+              "link": "and",
+              "name": "没选中时",
+              "remark": "if (变量【Variable1526977779995】的值 == )"
+            },
+            "children": [{
+              "id": "Action1526978104803",
+              "type": "action",
+              "action": {
+                "code": "DisableControl",
+                "name": "禁用控件",
+                "attrs": [{
+                  "code": "Controls",
+                  "value": "ToolStripButton1526976474136,ToolStripButton1526976473552"
+                }]
+              },
+              "children": []
+            }]
+          },
+          {
+            "id": "Condition1526978345438",
+            "type": "condition",
+            "condition": {
+              "items": [{
+                "id": "ConditionItem1526978330184",
+                "code": "Variable",
+                "name": "变量判断",
+                "attrs": [{
+                  "code": "VariableKey",
+                  "value": "Variable1526977779995"
+                },
+                  {
+                    "code": "Compare",
+                    "value": "notnull"
+                  },
+                  {
+                    "code": "ToValue",
+                    "value": ""
+                  }]
+              }],
+              "link": "and",
+              "name": "选中时",
+              "remark": "if (变量【Variable1526977779995】的值 notnull )"
+            },
+            "children": [{
+              "id": "Action1526978354667",
+              "type": "action",
+              "action": {
+                "code": "EnableControl",
+                "name": "启用控件",
+                "attrs": [{
+                  "code": "Controls",
+                  "value": "ToolStripButton1526976473552,ToolStripButton1526976474136"
+                }]
+              },
+              "children": []
+            },
+              {
+                "id": "Method1531897444368",
+                "type": "method",
+                "method": {
+                  "id": "Method1531897415602",
+                  "name": "查询水表列表"
+                },
+                "children": []
+              }]
+          }]
+      },
+        {
+          "id": "Event1532074536033",
+          "code": "OnRowDoubleClick",
+          "actions": [{
+            "id": "Method1532074692963",
+            "type": "method",
+            "method": {
+              "id": "Method1532068643657",
+              "name": "打开审批界面"
+            },
+            "children": []
+          }]
+        }],
+      "index": 1
+    },
+    {
+      "pid": "Panel1526971169831",
+      "id": "ToolStrip1526971226089",
+      "code": "ToolStrip",
+      "name": "tool水表工具栏",
+      "path": "_Panel1526970972517_Panel1526971169831_ToolStrip1526971226089",
+      "attrs": [{
+        "code": "Name",
+        "value": "tool水表工具栏"
+      },
+        {
+          "code": "X",
+          "value": "5"
+        },
+        {
+          "code": "Y",
+          "value": "2"
+        },
+        {
+          "code": "Width",
+          "value": "1040"
+        },
+        {
+          "code": "Anchor",
+          "value": "Top,Left,Right"
+        },
+        {
+          "code": "Dock",
+          "value": "Top"
+        },
+        {
+          "code": "Enabled",
+          "value": "true"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "TabIndex",
+          "value": "6"
+        },
+        {
+          "code": "RightToLeft",
+          "value": "no"
+        },
+        {
+          "code": "BackColor",
+          "value": ""
+        }],
+      "events": [],
+      "index": 0
+    },
+    {
+      "pid": "Panel1526971169831",
+      "id": "DataGrid1526971240197",
+      "code": "DataGrid",
+      "name": "Grid水表信息",
+      "path": "_Panel1526970972517_Panel1526971169831_DataGrid1526971240197",
+      "attrs": [{
+        "code": "Name",
+        "value": "Grid水表信息"
+      },
+        {
+          "code": "X",
+          "value": "5"
+        },
+        {
+          "code": "Y",
+          "value": "40"
+        },
+        {
+          "code": "Width",
+          "value": "1040"
+        },
+        {
+          "code": "Height",
+          "value": "281"
+        },
+        {
+          "code": "Anchor",
+          "value": ""
+        },
+        {
+          "code": "Dock",
+          "value": "Fill"
+        },
+        {
+          "code": "Enabled",
+          "value": "true"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Remark",
+          "value": ""
+        },
+        {
+          "code": "IsPagination",
+          "value": "true"
+        },
+        {
+          "code": "IsCheckBox",
+          "value": "true"
+        },
+        {
+          "code": "IsNumberColumn",
+          "value": "true"
+        },
+        {
+          "code": "HasSumPanel",
+          "value": "false"
+        },
+        {
+          "code": "DataSource",
+          "value": "P_WATER_TAB_QUERY"
+        },
+        {
+          "code": "Field",
+          "value": ""
+        },
+        {
+          "code": "QueryControl",
+          "value": ""
+        },
+        {
+          "code": "TreeControl",
+          "value": ""
+        },
+        {
+          "code": "MainGridControl",
+          "value": "DataGrid1526971156167"
+        },
+        {
+          "code": "MainKey",
+          "value": ""
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "RowStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "RowStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "RowCellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "IsCommitTotal",
+          "value": "false"
+        }],
+      "events": [],
+      "index": 1
+    },
+    {
+      "pid": "DataGrid1526971156167",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_DataGrid1526971156167_DataGridViewTextBoxColumn1526976503281",
+      "id": "DataGridViewTextBoxColumn1526976503281",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column流程实例ID",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column流程实例ID"
+      },
+        {
+          "code": "HeaderText",
+          "value": "流程实例ID"
+        },
+        {
+          "code": "SortType",
+          "value": "0"
+        },
+        {
+          "code": "SortOrder",
+          "value": ""
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "false"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "true"
+        },
+        {
+          "code": "Field",
+          "value": "WORK_ID"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971156167",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_DataGrid1526971156167_DataGridViewLinkColumn1531728881689",
+      "id": "DataGridViewLinkColumn1531728881689",
+      "code": "DataGridViewLinkColumn",
+      "name": "ColumnView查看",
+      "attrs": [{
+        "code": "Name",
+        "value": "ColumnView查看"
+      },
+        {
+          "code": "HeaderText",
+          "value": "查看"
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Field",
+          "value": ""
+        },
+        {
+          "code": "Text",
+          "value": "查看"
+        },
+        {
+          "code": "Remark",
+          "value": ""
+        },
+        {
+          "code": "Align",
+          "value": "Center"
+        },
+        {
+          "code": "IsAtta",
+          "value": "false"
+        }],
+      "events": [{
+        "id": "Event1532068965895",
+        "code": "OnClick",
+        "actions": [{
+          "id": "Method1532068971752",
+          "type": "method",
+          "method": {
+            "id": "Method1532068643657",
+            "name": "打开审批界面"
+          },
+          "children": []
+        }]
+      }]
+    },
+    {
+      "pid": "DataGrid1526971156167",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_DataGrid1526971156167_DataGridViewTextBoxColumn1526972570847",
+      "id": "DataGridViewTextBoxColumn1526972570847",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column请求标题",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column请求标题"
+      },
+        {
+          "code": "HeaderText",
+          "value": "请求标题"
+        },
+        {
+          "code": "SortType",
+          "value": "0"
+        },
+        {
+          "code": "SortOrder",
+          "value": ""
+        },
+        {
+          "code": "Width",
+          "value": "250"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Align",
+          "value": "Center"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "WORK_HEADER"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971156167",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_DataGrid1526971156167_DataGridViewTextBoxColumn1526972571286",
+      "id": "DataGridViewTextBoxColumn1526972571286",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column申报人",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column申报人"
+      },
+        {
+          "code": "HeaderText",
+          "value": "申报人/单位"
+        },
+        {
+          "code": "SortType",
+          "value": "0"
+        },
+        {
+          "code": "SortOrder",
+          "value": ""
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "APPLY_USER"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971156167",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_DataGrid1526971156167_DataGridViewTextBoxColumn1526972572197",
+      "id": "DataGridViewTextBoxColumn1526972572197",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column联系人",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column联系人"
+      },
+        {
+          "code": "HeaderText",
+          "value": "联系人"
+        },
+        {
+          "code": "SortType",
+          "value": "0"
+        },
+        {
+          "code": "SortOrder",
+          "value": ""
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "APPLY_CONTACT_USER"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971156167",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_DataGrid1526971156167_DataGridViewTextBoxColumn1526972572381",
+      "id": "DataGridViewTextBoxColumn1526972572381",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column联系人电话",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column联系人电话"
+      },
+        {
+          "code": "HeaderText",
+          "value": "联系人电话"
+        },
+        {
+          "code": "SortType",
+          "value": "0"
+        },
+        {
+          "code": "SortOrder",
+          "value": ""
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "APPLY_CONTACT_PHONE"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971156167",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_DataGrid1526971156167_DataGridViewTextBoxColumn1526972572574",
+      "id": "DataGridViewTextBoxColumn1526972572574",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column联系人地址",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column联系人地址"
+      },
+        {
+          "code": "HeaderText",
+          "value": "联系人地址"
+        },
+        {
+          "code": "SortType",
+          "value": "0"
+        },
+        {
+          "code": "SortOrder",
+          "value": ""
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "APPLY_CONTACT_ADDRESS"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971156167",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_DataGrid1526971156167_DataGridViewTextBoxColumn1526972573078",
+      "id": "DataGridViewTextBoxColumn1526972573078",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column剩余时间",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column剩余时间"
+      },
+        {
+          "code": "HeaderText",
+          "value": "剩余时间（小时）"
+        },
+        {
+          "code": "SortType",
+          "value": "0"
+        },
+        {
+          "code": "SortOrder",
+          "value": ""
+        },
+        {
+          "code": "Width",
+          "value": "150"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "REMAINING_TIME"
+        },
+        {
+          "code": "CellStyle",
+          "value": "#fa0000"
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": "=="
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": "1"
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": "DataGridViewTextBoxColumn1532658124601"
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971156167",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_DataGrid1526971156167_DataGridViewTextBoxColumn1531821067320",
+      "id": "DataGridViewTextBoxColumn1531821067320",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column接收时间",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column接收时间"
+      },
+        {
+          "code": "HeaderText",
+          "value": "接收时间"
+        },
+        {
+          "code": "SortType",
+          "value": ""
+        },
+        {
+          "code": "SortOrder",
+          "value": "0"
+        },
+        {
+          "code": "Width",
+          "value": "150"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "CREATE_TIME_STR"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971156167",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_DataGrid1526971156167_DataGridViewTextBoxColumn1531821071969",
+      "id": "DataGridViewTextBoxColumn1531821071969",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column是否第一个节点",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column是否第一个节点"
+      },
+        {
+          "code": "HeaderText",
+          "value": "当前节点是否第一个节点"
+        },
+        {
+          "code": "SortType",
+          "value": ""
+        },
+        {
+          "code": "SortOrder",
+          "value": "0"
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "false"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "NODE_LOCATION"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971156167",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_DataGrid1526971156167_DataGridViewTextBoxColumn1532072688547",
+      "id": "DataGridViewTextBoxColumn1532072688547",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column上个节点创建时间",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column上个节点创建时间"
+      },
+        {
+          "code": "HeaderText",
+          "value": "上个节点创建时间"
+        },
+        {
+          "code": "SortType",
+          "value": ""
+        },
+        {
+          "code": "SortOrder",
+          "value": "0"
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "false"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "CREATE_TIME_STR"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971156167",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_DataGrid1526971156167_DataGridViewTextBoxColumn1532072782754",
+      "id": "DataGridViewTextBoxColumn1532072782754",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column上个节点审批人",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column上个节点审批人"
+      },
+        {
+          "code": "HeaderText",
+          "value": "上个节点审批人"
+        },
+        {
+          "code": "SortType",
+          "value": ""
+        },
+        {
+          "code": "SortOrder",
+          "value": "0"
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "false"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "CREATE_OPERATOR_NAME"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971156167",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_DataGrid1526971156167_DataGridViewTextBoxColumn1532072783985",
+      "id": "DataGridViewTextBoxColumn1532072783985",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column上个节点审批意见",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column上个节点审批意见"
+      },
+        {
+          "code": "HeaderText",
+          "value": "上个节点审批意见"
+        },
+        {
+          "code": "SortType",
+          "value": ""
+        },
+        {
+          "code": "SortOrder",
+          "value": "0"
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "false"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "CREATE_OPERATOR_REMARK"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971156167",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_DataGrid1526971156167_DataGridViewTextBoxColumn1532400749131",
+      "id": "DataGridViewTextBoxColumn1532400749131",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column当前节点实例ID",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column当前节点实例ID"
+      },
+        {
+          "code": "HeaderText",
+          "value": "当前节点实例ID"
+        },
+        {
+          "code": "SortType",
+          "value": ""
+        },
+        {
+          "code": "SortOrder",
+          "value": "0"
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "false"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "WORK_NODE_ID"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971156167",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_DataGrid1526971156167_DataGridViewTextBoxColumn1532654453435",
+      "id": "DataGridViewTextBoxColumn1532654453435",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column受理编号",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column受理编号"
+      },
+        {
+          "code": "HeaderText",
+          "value": "受理编号"
+        },
+        {
+          "code": "SortType",
+          "value": ""
+        },
+        {
+          "code": "SortOrder",
+          "value": "0"
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "false"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "WORK_CODE"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971156167",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_DataGrid1526971156167_DataGridViewTextBoxColumn1532655155515",
+      "id": "DataGridViewTextBoxColumn1532655155515",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column工单类型",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column工单类型"
+      },
+        {
+          "code": "HeaderText",
+          "value": "工单类型"
+        },
+        {
+          "code": "SortType",
+          "value": ""
+        },
+        {
+          "code": "SortOrder",
+          "value": "0"
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "false"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "APPLY_TYPE"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "DataGrid1526971156167",
+      "pattr": "GridColumn",
+      "path": "_Panel1526970972517_Panel12473_DataGrid1526971156167_DataGridViewTextBoxColumn1532658124601",
+      "id": "DataGridViewTextBoxColumn1532658124601",
+      "code": "DataGridViewTextBoxColumn",
+      "name": "Column是否超时",
+      "attrs": [{
+        "code": "Name",
+        "value": "Column是否超时"
+      },
+        {
+          "code": "HeaderText",
+          "value": "是否超时"
+        },
+        {
+          "code": "SortType",
+          "value": ""
+        },
+        {
+          "code": "SortOrder",
+          "value": "0"
+        },
+        {
+          "code": "Width",
+          "value": "100"
+        },
+        {
+          "code": "Visible",
+          "value": "false"
+        },
+        {
+          "code": "Align",
+          "value": "Left"
+        },
+        {
+          "code": "Format",
+          "value": ""
+        },
+        {
+          "code": "IsKey",
+          "value": "false"
+        },
+        {
+          "code": "Field",
+          "value": "IS_OVERTIME"
+        },
+        {
+          "code": "CellStyle",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompare",
+          "value": ""
+        },
+        {
+          "code": "CellStyleToValue",
+          "value": ""
+        },
+        {
+          "code": "CellStyleCompareColumn",
+          "value": ""
+        },
+        {
+          "code": "IsEditColumn",
+          "value": "false"
+        }],
+      "events": []
+    },
+    {
+      "pid": "ToolStrip1526971226089",
+      "pattr": "Items",
+      "path": "_Panel1526970972517_Panel1526971169831_ToolStrip1526971226089_ToolStripButton1526976473552",
+      "id": "ToolStripButton1526976473552",
+      "code": "ToolStripButton",
+      "name": "btn用户水表管理",
+      "attrs": [{
+        "code": "Name",
+        "value": "btn用户水表管理"
+      },
+        {
+          "code": "Text",
+          "value": "用户水表管理"
+        },
+        {
+          "code": "Enabled",
+          "value": "true"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Image",
+          "value": "apply_edit"
+        },
+        {
+          "code": "Remark",
+          "value": ""
+        }],
+      "events": [{
+        "id": "Event1527583004092",
+        "code": "OnClick",
+        "actions": [{
+          "id": "Action1527583010036",
+          "type": "action",
+          "action": {
+            "code": "ShowAddDialog",
+            "name": "打开新增窗口",
+            "attrs": [{
+              "code": "WindowCode",
+              "value": "INSTALL_APPROVE_METER_LIST"
+            },
+              {
+                "code": "DataGridControl",
+                "value": "DataGrid1526971240197"
+              },
+              {
+                "code": "DialogResultVariable",
+                "value": ""
+              },
+              {
+                "code": "ReloadGrid",
+                "value": "true"
+              },
+              {
+                "code": "BackToControl",
+                "value": ""
+              },
+              {
+                "code": "Variables",
+                "value": "Variable1526977779995"
+              }]
+          },
+          "children": []
+        }]
+      }]
+    },
+    {
+      "pid": "ToolStrip1526971226089",
+      "pattr": "Items",
+      "path": "_Panel1526970972517_Panel1526971169831_ToolStrip1526971226089_ToolStripButton1526976474136",
+      "id": "ToolStripButton1526976474136",
+      "code": "ToolStripButton",
+      "name": "btn导出水表列表",
+      "attrs": [{
+        "code": "Name",
+        "value": "btn导出水表列表"
+      },
+        {
+          "code": "Text",
+          "value": "导出"
+        },
+        {
+          "code": "Enabled",
+          "value": "true"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "Image",
+          "value": "export"
+        },
+        {
+          "code": "Remark",
+          "value": ""
+        }],
+      "events": [{
+        "id": "Event1532604815467",
+        "code": "OnClick",
+        "actions": [{
+          "id": "Method1532604818722",
+          "type": "method",
+          "method": {
+            "id": "Method1532604651482",
+            "name": "导出水表信息"
+          },
+          "children": []
+        }]
+      }]
+    },
+    {
+      "pid": "ToolStrip1526971226089",
+      "pattr": "Items",
+      "path": "_Panel1526970972517_Panel1526971169831_ToolStrip1526971226089_ToolStripButton1532604529571",
+      "id": "ToolStripButton1532604529571",
+      "code": "ToolStripButton",
+      "name": "ToolStripButton刷新",
+      "attrs": [{
+        "code": "Name",
+        "value": "ToolStripButton刷新"
+      },
+        {
+          "code": "Text",
+          "value": "刷新"
+        },
+        {
+          "code": "Enabled",
+          "value": "true"
+        },
+        {
+          "code": "Visible",
+          "value": "false"
+        },
+        {
+          "code": "Image",
+          "value": "refresh"
+        },
+        {
+          "code": "Remark",
+          "value": ""
+        }],
+      "events": [{
+        "id": "Event1532604549530",
+        "code": "OnClick",
+        "actions": [{
+          "id": "Method1532604552209",
+          "type": "method",
+          "method": {
+            "id": "Method1531897415602",
+            "name": "查询水表列表"
+          },
+          "children": []
+        }]
+      }]
+    },
+    {
+      "pid": "ToolStrip1526971226089",
+      "pattr": "Items",
+      "path": "_Panel1526970972517_Panel1526971169831_ToolStrip1526971226089_ToolStripButton1532937362319",
+      "id": "ToolStripButton1532937362319",
+      "code": "ToolStripButton",
+      "name": "ToolStripButton1532937362319",
+      "attrs": [{
+        "code": "Name",
+        "value": "ToolStripButton1532937362319"
+      },
+        {
+          "code": "Text",
+          "value": "列表控制"
+        },
+        {
+          "code": "Enabled",
+          "value": "true"
+        },
+        {
+          "code": "Visible",
+          "value": "false"
+        },
+        {
+          "code": "Image",
+          "value": "meterread_setgrid"
+        },
+        {
+          "code": "Remark",
+          "value": ""
+        }],
+      "events": [{
+        "id": "Event1532937411955",
+        "code": "OnClick",
+        "actions": [{
+          "id": "Action1532937417866",
+          "type": "action",
+          "action": {
+            "code": "ConfigDataGrid",
+            "name": "配置表格",
+            "attrs": [{
+              "code": "DataGridControl",
+              "value": "DataGrid1526971240197"
+            }]
+          },
+          "children": []
+        }]
+      }]
+    },
+    {
+      "pid": "Panel952609",
+      "id": "TreeViewer327990",
+      "code": "TreeViewer",
+      "name": "TreeViewerFlowNode",
+      "path": "_Panel952609_TreeViewer327990",
+      "attrs": [{
+        "code": "Name",
+        "value": "TreeViewerFlowNode"
+      },
+        {
+          "code": "Title",
+          "value": "流转类型"
+        },
+        {
+          "code": "Width",
+          "value": "196"
+        },
+        {
+          "code": "Height",
+          "value": "592"
+        },
+        {
+          "code": "X",
+          "value": "0"
+        },
+        {
+          "code": "Y",
+          "value": "0"
+        },
+        {
+          "code": "Anchor",
+          "value": "Top,Left"
+        },
+        {
+          "code": "Dock",
+          "value": "Fill"
+        },
+        {
+          "code": "Enabled",
+          "value": "true"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "TabIndex",
+          "value": "10"
+        },
+        {
+          "code": "Field",
+          "value": "NODE_ID"
+        },
+        {
+          "code": "DataSource",
+          "value": "FLOW_WORK_NODE_BY_USER"
+        },
+        {
+          "code": "Check",
+          "value": "false"
+        },
+        {
+          "code": "CheckAll",
+          "value": "false"
+        },
+        {
+          "code": "ExpandAll",
+          "value": "false"
+        },
+        {
+          "code": "ExpandFirstNode",
+          "value": "true"
+        },
+        {
+          "code": "SelectFirstNode",
+          "value": "true"
+        },
+        {
+          "code": "ShowMinMaxBtn",
+          "value": "false"
+        },
+        {
+          "code": "IsInitShowMin",
+          "value": "false"
+        },
+        {
+          "code": "Remark",
+          "value": ""
+        }],
+      "events": [{
+        "id": "Event1531896374273",
+        "code": "OnNodeClick",
+        "actions": [{
+          "id": "Action1532591574603",
+          "type": "action",
+          "action": {
+            "code": "ClearGridData",
+            "name": "清空列表数据",
+            "attrs": [{
+              "code": "Controls",
+              "value": "DataGrid1526971240197"
+            }]
+          },
+          "children": []
+        },
+          {
+            "id": "Method1531896518456",
+            "type": "method",
+            "method": {
+              "id": "Method1531896492402",
+              "name": "查询流程列表"
+            },
+            "children": []
+          }]
+      }],
+      "index": 0
+    },
+    {
+      "pid": "Panel952609",
+      "id": "Button930018",
+      "code": "Button",
+      "name": "ButtonApply",
+      "path": "_Panel952609_Button930018",
+      "attrs": [{
+        "code": "Name",
+        "value": "ButtonApply"
+      },
+        {
+          "code": "Text",
+          "value": "报装申请"
+        },
+        {
+          "code": "X",
+          "value": "3"
+        },
+        {
+          "code": "Y",
+          "value": "636"
+        },
+        {
+          "code": "Width",
+          "value": "181"
+        },
+        {
+          "code": "Height",
+          "value": "33"
+        },
+        {
+          "code": "Anchor",
+          "value": "Bottom"
+        },
+        {
+          "code": "Dock",
+          "value": "None"
+        },
+        {
+          "code": "Enabled",
+          "value": "true"
+        },
+        {
+          "code": "Visible",
+          "value": "true"
+        },
+        {
+          "code": "TabIndex",
+          "value": "11"
+        },
+        {
+          "code": "Image",
+          "value": "add"
+        }],
+      "events": [{
+        "id": "Event1531822487896",
+        "code": "OnClick",
+        "actions": [{
+          "id": "Action1531822497354",
+          "type": "action",
+          "action": {
+            "code": "ShowAddDialog",
+            "name": "打开新增窗口",
+            "attrs": [{
+              "code": "WindowCode",
+              "value": "INSTALL_APPLY"
+            },
+              {
+                "code": "DataGridControl",
+                "value": "DataGrid1526971156167"
+              },
+              {
+                "code": "DialogResultVariable",
+                "value": ""
+              },
+              {
+                "code": "ReloadGrid",
+                "value": "true"
+              },
+              {
+                "code": "BackToControl",
+                "value": ""
+              }]
+          },
+          "children": []
+        }]
+      }],
+      "index": 1
+    }],
+  "events": [{
+    "id": "Event1535013809842",
+    "code": "OnLoad",
+    "actions": [{
+      "id": "Method1535013812729",
+      "type": "method",
+      "method": {
+        "id": "Method1531896492402",
+        "name": "查询流程列表"
+      },
+      "children": []
+    }]
+  }],
+  "variables": [{
+    "id": "Variable1526977779995",
+    "code": "WORK_ID",
+    "name": "选中数据主键",
+    "dataType": "Int",
+    "default": ""
+  },
+    {
+      "id": "Variable1531894764497",
+      "code": "FLOW_CODE",
+      "name": "流程标识",
+      "dataType": "String",
+      "default": "INSTALL_FLOW"
+    },
+    {
+      "id": "Variable1531894818282",
+      "code": "WORK_STATUS",
+      "name": "流程状态",
+      "dataType": "String",
+      "default": "办理中"
+    },
+    {
+      "id": "Variable1532072423626",
+      "code": "Pre_Node_Check_Time",
+      "name": "上个节点审批时间",
+      "dataType": "String",
+      "default": ""
+    },
+    {
+      "id": "Variable1532073214320",
+      "code": "Pre_Node_Check_User",
+      "name": "上个节点审批人",
+      "dataType": "String",
+      "default": ""
+    },
+    {
+      "id": "Variable1532073302450",
+      "code": "Pre_Node_Opinion",
+      "name": "上个节点审批意见",
+      "dataType": "String",
+      "default": ""
+    },
+    {
+      "id": "Variable1532311375543",
+      "code": "Remaining_Time",
+      "name": "剩余时间",
+      "dataType": "String",
+      "default": ""
+    },
+    {
+      "id": "Variable1532400849608",
+      "code": "WORK_NODE_ID",
+      "name": "当前节点实例ID",
+      "dataType": "Int",
+      "default": ""
+    },
+    {
+      "id": "Variable1532592663673",
+      "code": "ResultOfCheck",
+      "name": "审批结果",
+      "dataType": "String",
+      "default": ""
+    },
+    {
+      "id": "Variable1532654501427",
+      "code": "WORK_CODE",
+      "name": "受理编号",
+      "dataType": "String",
+      "default": ""
+    },
+    {
+      "id": "Variable1532655256410",
+      "code": "APPLY_TYPE",
+      "name": "工单类型",
+      "dataType": "String",
+      "default": ""
+    }],
+  "methods": [{
+    "id": "Method1531896492402",
+    "code": "Search",
+    "name": "查询流程列表",
+    "remark": "",
+    "actions": [{
+      "id": "Action1532485703200",
+      "type": "action",
+      "action": {
+        "code": "DisableControl",
+        "name": "禁用控件",
+        "attrs": [{
+          "code": "Controls",
+          "value": "ToolStripButton1526976473552,ToolStripButton1526976474136"
+        }]
+      },
+      "children": []
+    },
+      {
+        "id": "Action1531896500042",
+        "type": "action",
+        "action": {
+          "code": "QueryGridData",
+          "name": "查询列表数据",
+          "attrs": [{
+            "code": "DataGridControl",
+            "value": "DataGrid1526971156167"
+          },
+            {
+              "code": "Variables",
+              "value": "Variable1531894764497,Variable1531894818282"
+            },
+            {
+              "code": "EnterParameters",
+              "value": ""
+            }]
+        },
+        "children": []
+      }]
+  },
+    {
+      "id": "Method1531897415602",
+      "code": "SearchMeter",
+      "name": "查询水表列表",
+      "remark": "",
+      "actions": [{
+        "id": "Action1532485748537",
+        "type": "action",
+        "action": {
+          "code": "EnableControl",
+          "name": "启用控件",
+          "attrs": [{
+            "code": "Controls",
+            "value": ""
+          }]
+        },
+        "children": []
+      },
+        {
+          "id": "Action1531897423057",
+          "type": "action",
+          "action": {
+            "code": "QueryGridData",
+            "name": "查询列表数据",
+            "attrs": [{
+              "code": "DataGridControl",
+              "value": "DataGrid1526971240197"
+            },
+              {
+                "code": "Variables",
+                "value": "Variable1526977779995,Variable1531894764497,Variable1531894818282"
+              },
+              {
+                "code": "EnterParameters",
+                "value": ""
+              }]
+          },
+          "children": []
+        }]
+    },
+    {
+      "id": "Method1532068643657",
+      "code": "OpenCheck",
+      "name": "打开审批界面",
+      "remark": "",
+      "actions": [{
+        "id": "Action1532072442890",
+        "type": "action",
+        "action": {
+          "code": "SetVariableValue",
+          "name": "设置变量值",
+          "attrs": [{
+            "code": "VariableKey",
+            "value": "Variable1526977779995"
+          },
+            {
+              "code": "ValueFrom",
+              "value": "SelectedColumn"
+            },
+            {
+              "code": "FromStaticValue",
+              "value": ""
+            },
+            {
+              "code": "FromVariableKey",
+              "value": ""
+            },
+            {
+              "code": "FromEnterParameterKey",
+              "value": ""
+            },
+            {
+              "code": "FromControlValue",
+              "value": ""
+            },
+            {
+              "code": "FromExpression",
+              "value": ""
+            },
+            {
+              "code": "FromTreeControl",
+              "value": ""
+            },
+            {
+              "code": "FromAttribute",
+              "value": ""
+            },
+            {
+              "code": "FromGridColumnValue",
+              "value": "DataGridViewTextBoxColumn1526976503281"
+            },
+            {
+              "code": "FromGridColumnCheckValue",
+              "value": ""
+            }]
+        },
+        "children": []
+      },
+        {
+          "id": "Action1532074905191",
+          "type": "action",
+          "action": {
+            "code": "SetVariableValue",
+            "name": "设置变量值",
+            "attrs": [{
+              "code": "VariableKey",
+              "value": "Variable1532073214320"
+            },
+              {
+                "code": "ValueFrom",
+                "value": "SelectedColumn"
+              },
+              {
+                "code": "FromStaticValue",
+                "value": ""
+              },
+              {
+                "code": "FromVariableKey",
+                "value": ""
+              },
+              {
+                "code": "FromEnterParameterKey",
+                "value": ""
+              },
+              {
+                "code": "FromControlValue",
+                "value": ""
+              },
+              {
+                "code": "FromExpression",
+                "value": ""
+              },
+              {
+                "code": "FromTreeControl",
+                "value": ""
+              },
+              {
+                "code": "FromAttribute",
+                "value": ""
+              },
+              {
+                "code": "FromGridColumnValue",
+                "value": "DataGridViewTextBoxColumn1532072782754"
+              },
+              {
+                "code": "FromGridColumnCheckValue",
+                "value": ""
+              }]
+          },
+          "children": []
+        },
+        {
+          "id": "Action1532074941626",
+          "type": "action",
+          "action": {
+            "code": "SetVariableValue",
+            "name": "设置变量值",
+            "attrs": [{
+              "code": "VariableKey",
+              "value": "Variable1532072423626"
+            },
+              {
+                "code": "ValueFrom",
+                "value": "SelectedColumn"
+              },
+              {
+                "code": "FromStaticValue",
+                "value": ""
+              },
+              {
+                "code": "FromVariableKey",
+                "value": ""
+              },
+              {
+                "code": "FromEnterParameterKey",
+                "value": ""
+              },
+              {
+                "code": "FromControlValue",
+                "value": ""
+              },
+              {
+                "code": "FromExpression",
+                "value": ""
+              },
+              {
+                "code": "FromTreeControl",
+                "value": ""
+              },
+              {
+                "code": "FromAttribute",
+                "value": ""
+              },
+              {
+                "code": "FromGridColumnValue",
+                "value": "DataGridViewTextBoxColumn1532072688547"
+              },
+              {
+                "code": "FromGridColumnCheckValue",
+                "value": ""
+              }]
+          },
+          "children": []
+        },
+        {
+          "id": "Action1532074965840",
+          "type": "action",
+          "action": {
+            "code": "SetVariableValue",
+            "name": "设置变量值",
+            "attrs": [{
+              "code": "VariableKey",
+              "value": "Variable1532073302450"
+            },
+              {
+                "code": "ValueFrom",
+                "value": "SelectedColumn"
+              },
+              {
+                "code": "FromStaticValue",
+                "value": ""
+              },
+              {
+                "code": "FromVariableKey",
+                "value": ""
+              },
+              {
+                "code": "FromEnterParameterKey",
+                "value": ""
+              },
+              {
+                "code": "FromControlValue",
+                "value": ""
+              },
+              {
+                "code": "FromExpression",
+                "value": ""
+              },
+              {
+                "code": "FromTreeControl",
+                "value": ""
+              },
+              {
+                "code": "FromAttribute",
+                "value": ""
+              },
+              {
+                "code": "FromGridColumnValue",
+                "value": "DataGridViewTextBoxColumn1532072783985"
+              },
+              {
+                "code": "FromGridColumnCheckValue",
+                "value": ""
+              }]
+          },
+          "children": []
+        },
+        {
+          "id": "Action1532311401369",
+          "type": "action",
+          "action": {
+            "code": "SetVariableValue",
+            "name": "设置变量值",
+            "attrs": [{
+              "code": "VariableKey",
+              "value": "Variable1532311375543"
+            },
+              {
+                "code": "ValueFrom",
+                "value": "SelectedColumn"
+              },
+              {
+                "code": "FromStaticValue",
+                "value": ""
+              },
+              {
+                "code": "FromVariableKey",
+                "value": ""
+              },
+              {
+                "code": "FromEnterParameterKey",
+                "value": ""
+              },
+              {
+                "code": "FromControlValue",
+                "value": ""
+              },
+              {
+                "code": "FromExpression",
+                "value": ""
+              },
+              {
+                "code": "FromTreeControl",
+                "value": ""
+              },
+              {
+                "code": "FromAttribute",
+                "value": ""
+              },
+              {
+                "code": "FromGridColumnValue",
+                "value": "DataGridViewTextBoxColumn1526972573078"
+              },
+              {
+                "code": "FromGridColumnCheckValue",
+                "value": ""
+              }]
+          },
+          "children": []
+        },
+        {
+          "id": "Action1532400868922",
+          "type": "action",
+          "action": {
+            "code": "SetVariableValue",
+            "name": "设置变量值",
+            "attrs": [{
+              "code": "VariableKey",
+              "value": "Variable1532400849608"
+            },
+              {
+                "code": "ValueFrom",
+                "value": "SelectedColumn"
+              },
+              {
+                "code": "FromStaticValue",
+                "value": ""
+              },
+              {
+                "code": "FromVariableKey",
+                "value": ""
+              },
+              {
+                "code": "FromEnterParameterKey",
+                "value": ""
+              },
+              {
+                "code": "FromControlValue",
+                "value": ""
+              },
+              {
+                "code": "FromExpression",
+                "value": ""
+              },
+              {
+                "code": "FromTreeControl",
+                "value": ""
+              },
+              {
+                "code": "FromAttribute",
+                "value": ""
+              },
+              {
+                "code": "FromGridColumnValue",
+                "value": "DataGridViewTextBoxColumn1532400749131"
+              },
+              {
+                "code": "FromGridColumnCheckValue",
+                "value": ""
+              }]
+          },
+          "children": []
+        },
+        {
+          "id": "Action1532654518585",
+          "type": "action",
+          "action": {
+            "code": "SetVariableValue",
+            "name": "设置变量值",
+            "attrs": [{
+              "code": "VariableKey",
+              "value": "Variable1532654501427"
+            },
+              {
+                "code": "ValueFrom",
+                "value": "SelectedColumn"
+              },
+              {
+                "code": "FromStaticValue",
+                "value": ""
+              },
+              {
+                "code": "FromVariableKey",
+                "value": ""
+              },
+              {
+                "code": "FromEnterParameterKey",
+                "value": ""
+              },
+              {
+                "code": "FromControlValue",
+                "value": ""
+              },
+              {
+                "code": "FromExpression",
+                "value": ""
+              },
+              {
+                "code": "FromTreeControl",
+                "value": ""
+              },
+              {
+                "code": "FromAttribute",
+                "value": ""
+              },
+              {
+                "code": "FromGridColumnValue",
+                "value": "DataGridViewTextBoxColumn1532654453435"
+              },
+              {
+                "code": "FromGridColumnCheckValue",
+                "value": ""
+              }]
+          },
+          "children": []
+        },
+        {
+          "id": "Action1532655275674",
+          "type": "action",
+          "action": {
+            "code": "SetVariableValue",
+            "name": "设置变量值",
+            "attrs": [{
+              "code": "VariableKey",
+              "value": "Variable1532655256410"
+            },
+              {
+                "code": "ValueFrom",
+                "value": "SelectedColumn"
+              },
+              {
+                "code": "FromStaticValue",
+                "value": ""
+              },
+              {
+                "code": "FromVariableKey",
+                "value": ""
+              },
+              {
+                "code": "FromEnterParameterKey",
+                "value": ""
+              },
+              {
+                "code": "FromControlValue",
+                "value": ""
+              },
+              {
+                "code": "FromExpression",
+                "value": ""
+              },
+              {
+                "code": "FromTreeControl",
+                "value": ""
+              },
+              {
+                "code": "FromAttribute",
+                "value": ""
+              },
+              {
+                "code": "FromGridColumnValue",
+                "value": "DataGridViewTextBoxColumn1532655155515"
+              },
+              {
+                "code": "FromGridColumnCheckValue",
+                "value": ""
+              }]
+          },
+          "children": []
+        },
+        {
+          "id": "Condition1532068703050",
+          "type": "condition",
+          "condition": {
+            "items": [{
+              "id": "ConditionItem1532068668987",
+              "code": "GridRowColumnToValue",
+              "name": "表格选中行的列与值对比",
+              "attrs": [{
+                "code": "DataGridControl",
+                "value": "DataGrid1526971156167"
+              },
+                {
+                  "code": "ColumnControl",
+                  "value": "DataGridViewTextBoxColumn1531821071969"
+                },
+                {
+                  "code": "Compare",
+                  "value": "=="
+                },
+                {
+                  "code": "ToValue",
+                  "value": "0"
+                }]
+            }],
+            "link": "and",
+            "name": "是第一个节点",
+            "remark": "if ()"
+          },
+          "children": [{
+            "id": "Action1532069414112",
+            "type": "action",
+            "action": {
+              "code": "ShowAddDialog",
+              "name": "打开新增窗口",
+              "attrs": [{
+                "code": "WindowCode",
+                "value": "INSTALL_APPLY"
+              },
+                {
+                  "code": "DataGridControl",
+                  "value": "DataGrid1526971156167"
+                },
+                {
+                  "code": "DialogResultVariable",
+                  "value": "Variable1532592663673"
+                },
+                {
+                  "code": "ReloadGrid",
+                  "value": "true"
+                },
+                {
+                  "code": "BackToControl",
+                  "value": ""
+                },
+                {
+                  "code": "Variables",
+                  "value": "Variable1526977779995,Variable1531894764497,Variable1531894818282,Variable1532072423626,Variable1532073214320,Variable1532073302450,Variable1532400849608,Variable1532311375543,Variable1532654501427,Variable1532655256410"
+                }]
+            },
+            "children": []
+          }]
+        },
+        {
+          "id": "Condition1532069493963",
+          "type": "condition",
+          "condition": {
+            "items": [{
+              "id": "ConditionItem1532069476938",
+              "code": "GridRowColumnToValue",
+              "name": "表格选中行的列与值对比",
+              "attrs": [{
+                "code": "DataGridControl",
+                "value": "DataGrid1526971156167"
+              },
+                {
+                  "code": "ColumnControl",
+                  "value": "DataGridViewTextBoxColumn1531821071969"
+                },
+                {
+                  "code": "Compare",
+                  "value": "!="
+                },
+                {
+                  "code": "ToValue",
+                  "value": "0"
+                }]
+            }],
+            "link": "and",
+            "name": "不是第一个节点",
+            "remark": "if ()"
+          },
+          "children": [{
+            "id": "Action1532069517425",
+            "type": "action",
+            "action": {
+              "code": "ShowAddDialog",
+              "name": "打开新增窗口",
+              "attrs": [{
+                "code": "WindowCode",
+                "value": "INSTALL_APPROVE"
+              },
+                {
+                  "code": "DataGridControl",
+                  "value": "DataGrid1526971156167"
+                },
+                {
+                  "code": "DialogResultVariable",
+                  "value": "Variable1532592663673"
+                },
+                {
+                  "code": "ReloadGrid",
+                  "value": "true"
+                },
+                {
+                  "code": "BackToControl",
+                  "value": ""
+                },
+                {
+                  "code": "Variables",
+                  "value": "Variable1526977779995,Variable1531894764497,Variable1531894818282,Variable1532072423626,Variable1532073214320,Variable1532073302450,Variable1532311375543,Variable1532400849608,Variable1532654501427,Variable1532655256410"
+                }]
+            },
+            "children": []
+          }]
+        },
+        {
+          "id": "Condition1532592722691",
+          "type": "condition",
+          "condition": {
+            "items": [{
+              "id": "ConditionItem1532592704907",
+              "code": "Variable",
+              "name": "变量判断",
+              "attrs": [{
+                "code": "VariableKey",
+                "value": "Variable1532592663673"
+              },
+                {
+                  "code": "Compare",
+                  "value": "=="
+                },
+                {
+                  "code": "ToValue",
+                  "value": "1"
+                }]
+            }],
+            "link": "and",
+            "name": "审批结果等于OK时",
+            "remark": "if (变量【Variable1532592663673】的值 == 1)"
+          },
+          "children": [{
+            "id": "Action1532592730081",
+            "type": "action",
+            "action": {
+              "code": "ControlReloadDatasource",
+              "name": "刷新控件",
+              "attrs": [{
+                "code": "Controls",
+                "value": "TreeViewer327990"
+              }]
+            },
+            "children": []
+          }]
+        }]
+    },
+    {
+      "id": "Method1532604651482",
+      "code": "ExportMeter",
+      "name": "导出水表信息",
+      "remark": "",
+      "actions": [{
+        "id": "Action1532604935067",
+        "type": "action",
+        "action": {
+          "code": "ExportQueryData",
+          "name": "导出查询条件数据",
+          "attrs": [{
+            "code": "ProKey",
+            "value": "P_WATER_TAB_QUERY"
+          },
+            {
+              "code": "ExportExistHead",
+              "value": "true"
+            },
+            {
+              "code": "Variables",
+              "value": "Variable1526977779995"
+            },
+            {
+              "code": "EnterParameters",
+              "value": ""
+            },
+            {
+              "code": "DataGridControl",
+              "value": "DataGrid1526971240197"
+            },
+            {
+              "code": "QueryControl",
+              "value": ""
+            },
+            {
+              "code": "TreeControl",
+              "value": ""
+            },
+            {
+              "code": "FileType",
+              "value": ""
+            },
+            {
+              "code": "ExportRowFrom",
+              "value": "0"
+            },
+            {
+              "code": "ExportColumnFrom",
+              "value": "0"
+            },
+            {
+              "code": "ExportMark",
+              "value": ""
+            },
+            {
+              "code": "Title",
+              "value": ""
+            },
+            {
+              "code": "HeadName",
+              "value": "用户水表信息.xls"
+            }]
+        },
+        "children": []
+      }]
+    }]
+}

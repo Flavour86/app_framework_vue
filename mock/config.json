@@ -1,0 +1,134 @@
+{
+  "pages": [
+    {
+      "name": "home",
+      "indexRedirect": 1,
+      "router": {
+        "path": "/home",
+        "permission": -1
+      },
+      "components": [
+        {
+          "name": "hello-world",
+          "props": {
+            "msg": "我是home的helloWord组件",
+            "msg1": "msgmsgmsg111",
+            "msg2": "msgmsgmsg222"
+          },
+          "slot": {
+            "type": "String",
+            "value": "aaaaa"
+          }
+        },
+        {
+          "name": "Button",
+          "on": {
+            "click": {
+              "type": "event",
+              "value": "switchToRouter",
+              "params": ["124"]
+            }
+          },
+          "slot": {
+            "type": "components",
+            "value": [
+              {
+                "name": "Button",
+                "slot": {
+                  "type": "String",
+                  "value": "我是home页面组件的子组件"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "Button",
+          "on": {
+            "click": {
+              "type": "action",
+              "value": "getLists",
+              "params": [],
+              "bind": ""
+            }
+          },
+          "slot": {
+            "type": "String",
+            "value": "我是home页面的按钮2"
+          }
+        }
+      ],
+      "events": [
+        {
+          "type": "action",
+          "code": "created",
+          "value": "getLists",
+          "bind": "123",
+          "params": []
+        }
+      ],
+      "methods": [
+        {
+          "type": "event",
+          "value": "attend",
+          "params": []
+        }
+      ],
+      "variable": [{
+        "id": "123",
+        "props": "listDates",
+        "type": "Array",
+        "value": [],
+        "isShare": true
+      }, {
+        "id": "124",
+        "props": "pageGo1",
+        "type": "String",
+        "value": "about",
+        "isShare": false
+      }, {
+        "id": "125",
+        "props": "listDates1",
+        "type": "String",
+        "value": "about",
+        "isShare": false
+      }]
+    },
+    {
+      "name": "about",
+      "router": {
+        "path": "/about",
+        "permission": -1
+      },
+      "components": [
+        {
+          "name": "hello-world",
+          "props": {
+            "msg": "我是about的helloWord组件",
+            "msg1": "msgmsgmsg111",
+            "msg2": "msgmsgmsg222"
+          },
+          "content": "aaaa"
+        },
+        {
+          "name": "Button",
+          "content": "我是about页面",
+          "on": {
+            "click": {
+              "type": "event",
+              "value": "switchToRouter",
+              "params": [
+                {
+                  "type": "string",
+                  "value": "home"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "methods": [],
+      "variable": []
+    }
+  ]
+}

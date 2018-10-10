@@ -22,7 +22,11 @@ export default function generateMethods (page) {
     // 处理methods 与 events
     if (isArray(config) && !isComponents) {
       config.forEach(item => {
-        item.type === ACTIONSTYPE.ACTION ? setAction(item) : setEvent(item)
+        if (item.type) {
+          item.type === ACTIONSTYPE.ACTION ? setAction(item) : setEvent(item)
+        } else {
+          isArray(item.value) && generateByConfig(item.value)
+        }
       })
     } else {
       // 处理组件所监听的事件

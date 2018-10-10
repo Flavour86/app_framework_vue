@@ -24,7 +24,7 @@ function generateComs (h, components, vm, config) {
       other.on = on
     }
     if (props) {
-      other.props = generateProps(props, config)
+      other.props = generateProps(props, vm, config)
     }
     if (slot.type === 'components' && isArray(slot.value)) {
       return h(name, other, generateComs(h, slot.value, vm, config))

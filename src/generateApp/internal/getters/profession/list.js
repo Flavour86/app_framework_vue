@@ -1,3 +1,4 @@
-/**
- * Created by Administrator on 2018/9/30.
- */
+export const processDatesGetter = data => {
+  console.log(data)
+  return data
+}

@@ -12,10 +12,7 @@ export function getLists (options) {
         }
       ]
       // commit('setLists', data)
-      resolve({
-        data,
-        options
-      })
+      resolve(data)
     }, 2000)
   })
 }

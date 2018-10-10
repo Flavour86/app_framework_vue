@@ -10,7 +10,6 @@ export default function generateRouter (config, routes) {
     console.error('config is not parsed!')
     return
   }
-
   // let routers = []
   pages.forEach((page, index) => {
     const {name, router} = page

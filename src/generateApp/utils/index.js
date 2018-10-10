@@ -18,3 +18,5 @@ export const INITTYPEMAP = {
   'String': '',
   'Number': 0
 }
+
+export const GETTERFIX = 'Getter'

@@ -1,8 +1,14 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <h2>{{ msg1 }}</h2>
-    <h2>{{ msg2 }}</h2>
+    <div v-if="!!dataList.length">
+      <div v-for="(item, index) in dataList" :key="index">
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.des }}</p>
+      </div>
+    </div>
+    <div v-else class="noDate">
+      数据加载中....
+    </div>
   </div>
 </template>
 
@@ -21,6 +27,15 @@ export default {
     msg2: {
       type: String,
       default: 'Ecosystem'
+    },
+    dataList: {
+      type: Array,
+      default: () => []
+    }
+  },
+  watch: {
+    dataList (newVal, oldVal) {
+      console.log(newVal, oldVal, 'watch')
     }
   }
 }
@@ -28,18 +43,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
-  font-weight: normal;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+
 </style>

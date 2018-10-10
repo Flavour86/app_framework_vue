@@ -8,13 +8,11 @@ export default function generateVuex (config, vxModules) {
   const {pages} = config
   pages.forEach(page => {
     const {name} = page
-    if (!state[name]) {
-      state[name] = {
-        state: generateState(page),
-        actions: generateAction(page),
-        mutations: generateMutation(page),
-        getters: generateGetters(page)
-      }
+    state[name] = {
+      state: generateState(page),
+      actions: generateAction(page),
+      mutations: generateMutation(page),
+      getters: generateGetters(page)
     }
   })
 }

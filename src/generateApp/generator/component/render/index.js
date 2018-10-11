@@ -6,7 +6,7 @@ function generateEvent (onConfig, vm, config) {
   if (!onConfig.generateEvent) {
     const {variable} = config
     Object.keys(onConfig).forEach(e => {
-      const args = variable.filter(vari => onConfig[e].params.indexOf(vari.id) > -1).map(vari => vari.value)
+      const args = onConfig[e].params.map(id => variable.filter(vari => vari.id === id)[0]).map(vari => vari.isShare ? vm[vari.props] : vari.value)
       const value = onConfig[e].value
       onConfig[e] = (vm[value] || noop).bind(vm, ...args)
     })

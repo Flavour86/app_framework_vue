@@ -34,14 +34,14 @@
             "click": {
               "type": "event",
               "value": "switchToRouter",
-              "params": ["124"]
+              "params": ["124", "123"]
             }
           },
           "slot": {
             "type": "components",
             "value": [
               {
-                "name": "Button",
+                "name": "x-Button",
                 "slot": {
                   "type": "text",
                   "value": "我是home页面组件的子组件"
@@ -51,7 +51,7 @@
           }
         },
         {
-          "name": "Button",
+          "name": "x-Button",
           "on": {
             "click": {
               "type": "action",
@@ -74,7 +74,7 @@
               "type": "action",
               "bind": "123",
               "value": "getLists",
-              "params": []
+              "params": ["123"]
             }
           ]
         },
@@ -84,7 +84,7 @@
             {
               "type": "event",
               "value": "attend",
-              "params": []
+              "params": ["123", "124", "125"]
             }
           ]
         }

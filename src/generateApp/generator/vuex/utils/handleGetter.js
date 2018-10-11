@@ -7,7 +7,6 @@ const handleGetter = (handler, key) => {
   }
   return function (state) {
     if (isFunc(handler)) {
-      console.log(state, key)
       return handler(state[key])
     }
   }

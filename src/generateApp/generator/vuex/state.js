@@ -8,6 +8,5 @@ export default function generateState (page) {
     pageState[vari.props] = vari.value || INITTYPEMAP[vari['type']]
     return pageState
   }, pageState)
-  console.log(pageState, page.name)
   return pageState
 }

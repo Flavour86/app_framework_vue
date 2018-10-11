@@ -3,6 +3,7 @@ const path = require('path')
 const utils = require('./utils')
 const config = require('../config')
 const vueLoaderConfig = require('./vue-loader.conf')
+const vuxLoader = require('vux-loader')
 
 function resolve (dir) {
   return path.join(__dirname, '..', dir)
@@ -18,8 +19,12 @@ const createLintingRule = () => ({
     emitWarning: !config.dev.showEslintErrorsInOverlay
   }
 })
+const plugins = [
+  'vux-ui'
+]
+utils.isProduction ? plugins.push('duplicate-style') : null
 
-module.exports = {
+module.exports = vuxLoader.merge({
   context: path.resolve(__dirname, '../'),
   entry: {
     app: './src/main.js'
@@ -89,4 +94,6 @@ module.exports = {
     tls: 'empty',
     child_process: 'empty'
   }
-}
+}, {
+  plugins: plugins
+})

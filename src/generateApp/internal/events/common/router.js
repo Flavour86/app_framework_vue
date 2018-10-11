@@ -3,6 +3,6 @@ export function switchToRouter (to) {
   this.$router.push(to)
 }
 
-export function attend () {
-  console.log('11')
+export function attend (...args) {
+  console.log('11', args)
 }

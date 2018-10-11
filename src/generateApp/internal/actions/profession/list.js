@@ -1,5 +1,6 @@
-export function getLists (options) {
+export function getLists (...args) {
   return new Promise((resolve, reject) => {
+    console.log(args, 'getLists')
     setTimeout(() => {
       const data = [
         {

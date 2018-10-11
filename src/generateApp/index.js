@@ -6,6 +6,7 @@ import plugins from './plugins'
 import routerOptions from './router'
 import storeFn from './store'
 import generateStart from './generator'
+import isArray from 'lodash/isArray'
 
 Vue.config.productionTip = false
 Vue.use(plugins)
@@ -13,8 +14,8 @@ Vue.use(plugins)
 /* eslint-disable no-new */
 export default function entrance (config, opts = {}) {
   const {ui, plugins} = opts
-  Vue.use(ui)
-  plugins.forEach(plugin => {
+  ui && Vue.use(ui)
+  isArray(plugins) && plugins.forEach(plugin => {
     Vue.use(plugin)
   })
   generateStart(config)

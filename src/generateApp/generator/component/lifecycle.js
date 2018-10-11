@@ -2,20 +2,23 @@ import isArray from 'lodash/isArray'
 
 export default function generateLifecycle (page) {
   let lifecycle = {}
-  const {events} = page
+  const {events, variable} = page
   events && events.reduce((lifecycle, event) => {
     let eventValue = []
     if (event.value && isArray(event.value)) {
       event.value.reduce((eventValue, val) => {
-        val.value && eventValue.push(val.value)
+        val.value && eventValue.push({
+          fnName: val.value,
+          fnParams: val.params
+        })
         return eventValue
       }, eventValue)
     }
     if (event.eventType && !lifecycle[event.eventType]) {
       lifecycle[event.eventType] = function () {
         for (let i = 0; i < eventValue.length; i++) {
-          // todo 传参功能
-          this[eventValue[i]]()
+          let args = variable.filter(vari => eventValue[i].fnParams.indexOf(vari.id) > -1).map(vari => vari.isShare ? this[vari.props] : vari.value)
+          this[eventValue[i].fnName].apply(this, args)
         }
       }
     }

@@ -1,5 +1,4 @@
 {
-  "mode": "configuration",
   "pages": [
     {
       "name": "home",
@@ -64,6 +63,9 @@
             "type": "text",
             "value": "我是home页面的按钮2"
           }
+        },
+        {
+          "name": "demo1"
         }
       ],
       "events": [
@@ -101,7 +103,7 @@
         "type": "Array",
         "value": [],
         "isShare": true,
-        "getter": "processDates"
+        "getter": "immediate"
       }, {
         "id": "124",
         "props": "pageGo1",

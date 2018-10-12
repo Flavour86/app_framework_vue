@@ -1,9 +1,8 @@
-export const getInternalLibrary = type => require(`../internal/${type}s`)
-export const ACTIONSTYPE = {
+export const ACTIONS_TYPE = {
   ACTION: 'action',
   EVENT: 'event'
 }
-export const SLOTTYPE = {
+export const SLOT_TYPE = {
   COMPONENT: 'components',
   TEXT: 'text'
 }
@@ -12,11 +11,17 @@ export const MODE = {
   CONFIGURATION: 'configuration'
 }
 
-export const INITTYPEMAP = {
+export const INIT_TYPE_MAP = {
   'Array': [],
   'Object': {},
   'String': '',
   'Number': 0
 }
 
-export const GETTERFIX = 'Getter'
+export const GETTER_FIX = 'Getter'
+export const DEFAULT_GETTER = 'immediate'
+export const DEFAULT_OPTIONS = {
+  mode: 'configuration',
+  ui: 'vux',
+  mobile: true
+}

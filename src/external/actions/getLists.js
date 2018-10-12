@@ -1,4 +1,4 @@
-export function getLists (...args) {
+export default function getLists (...args) {
   return new Promise((resolve, reject) => {
     console.log(args, 'getLists')
     setTimeout(() => {

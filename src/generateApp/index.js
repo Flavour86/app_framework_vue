@@ -7,16 +7,25 @@ import routerOptions from './router'
 import storeFn from './store'
 import generateStart from './generator'
 import isArray from 'lodash/isArray'
+import {mergeConfig} from './globalConfig'
+import {error} from '@/utils/helpers'
 
 Vue.config.productionTip = false
 Vue.use(plugins)
 
 /* eslint-disable no-new */
 export default function entrance (config, opts = {}) {
-  const {ui, plugins} = opts
-  ui && Vue.use(ui)
-  isArray(plugins) && plugins.forEach(plugin => {
-    Vue.use(plugin)
+  const {mode, plugins, ui} = opts
+  if (isArray(plugins)) {
+    plugins.forEach(plugin => {
+      Vue.use(plugin)
+    })
+  } else {
+    error('plugins is must be Array!')
+  }
+  mergeConfig({
+    mode,
+    ui
   })
   generateStart(config)
   return new Vue({

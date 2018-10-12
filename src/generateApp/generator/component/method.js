@@ -1,8 +1,8 @@
-import events from '../../internal/events'
+// import events from 'external/events'
 import isArray from 'lodash/isArray'
 import isObject from 'lodash/isObject'
 import { mapActions } from 'vuex'
-import {ACTIONSTYPE, SLOTTYPE} from '../../utils'
+import {ACTIONS_TYPE, SLOT_TYPE} from '../../utils'
 
 export default function generateMethods (page) {
   let methods = {}
@@ -23,7 +23,7 @@ export default function generateMethods (page) {
     if (isArray(config) && !isComponents) {
       config.forEach(item => {
         if (item.type) {
-          item.type === ACTIONSTYPE.ACTION ? setAction(item) : setEvent(item)
+          item.type === ACTIONS_TYPE.ACTION ? setAction(item) : setEvent(item)
         } else {
           isArray(item.value) && generateByConfig(item.value)
         }
@@ -40,10 +40,10 @@ export default function generateMethods (page) {
         const {on, slot} = com
         isObject(on) && Object.keys(on).forEach(e => {
           if (on[e]) {
-            on[e].type === ACTIONSTYPE.ACTION ? setAction(on[e]) : setEvent(on[e])
+            on[e].type === ACTIONS_TYPE.ACTION ? setAction(on[e]) : setEvent(on[e])
           }
         })
-        if (slot && slot.type === SLOTTYPE.COMPONENT) {
+        if (slot && slot.type === SLOT_TYPE.COMPONENT) {
           generateByComs(slot.value)
         }
       })
@@ -58,7 +58,8 @@ export default function generateMethods (page) {
 
   function setEvent (event) {
     if (event && event.value && !methods[event.value]) {
-      methods[event.value] = events[event.value]
+      const eventFn = require(`external/events/${event.value}`)
+      methods[event.value] = eventFn
     }
   }
 }

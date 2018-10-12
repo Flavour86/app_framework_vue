@@ -1,8 +1,8 @@
 import isArray from 'lodash/isArray'
 import {warn} from '@/utils/helpers'
 import createAction from './utils/createAction'
-import actions from '../../internal/actions'
-import {ACTIONSTYPE, SLOTTYPE} from '../../utils'
+// import actions from 'external/actions'
+import {ACTIONS_TYPE, SLOT_TYPE} from '../../utils'
 
 let binds = {}
 export function getBinds () {
@@ -20,14 +20,15 @@ export default function generateAction (page) {
   events.forEach(eve => {
     if (eve.value && isArray(eve.value)) {
       eve.value.forEach(val => {
-        if (val.type === ACTIONSTYPE.ACTION) {
+        if (val.type === ACTIONS_TYPE.ACTION) {
           actionTypeEvents.push(val)
         }
       })
     }
   })
   actionTypeEvents.forEach(action => {
-    !pageActions[action.value] && (pageActions[action.value] = createAction(action.value, actions[action.value]))
+    const actionFn = require(`external/actions/${action.value}`)
+    !pageActions[action.value] && (pageActions[action.value] = createAction(action.value, actionFn))
     collectBind(name, action)
   })
   generateActionByCom(components)
@@ -38,14 +39,15 @@ export default function generateAction (page) {
       const {on, slot} = com
       // 从组件监听的事件中集成action
       on && Object.keys(on).forEach(key => {
-        if (on[key].type === ACTIONSTYPE.ACTION && !pageActions[on[key].value]) {
-          pageActions[on[key].value] = createAction(on[key].value, actions[on[key].value])
+        if (on[key].type === ACTIONS_TYPE.ACTION && !pageActions[on[key].value]) {
+          const actionFn = require(`external/actions/${on[key].value}`)
+          pageActions[on[key].value] = createAction(on[key].value, actionFn)
         }
         collectBind(name, on[key])
       })
 
       // 从子组件监听的事件中集成action
-      if (slot.type === SLOTTYPE.COMPONENT && isArray(slot.value)) {
+      if (slot && slot.type === SLOT_TYPE.COMPONENT && isArray(slot.value)) {
         generateActionByCom(slot.value)
       }
     })

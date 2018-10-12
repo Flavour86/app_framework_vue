@@ -26,11 +26,14 @@ function generateComs (h, components, vm, config) {
     if (props) {
       other.props = generateProps(props, vm, config)
     }
-    if (slot.type === 'components' && isArray(slot.value)) {
-      return h(name, other, generateComs(h, slot.value, vm, config))
-    } else {
-      return h(name, other, slot.value)
+    if (slot) {
+      if (slot.type === 'components' && isArray(slot.value)) {
+        return h(name, other, generateComs(h, slot.value, vm, config))
+      } else {
+        return h(name, other, slot.value)
+      }
     }
+    return h(name, other)
   })
 }
 

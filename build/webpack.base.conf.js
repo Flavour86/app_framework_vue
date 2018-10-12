@@ -41,6 +41,9 @@ module.exports = vuxLoader.merge({
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src'),
+      'external': resolve('src/external'),
+      'ui': resolve('src/ui'),
+      'normalizer': resolve('src/normalizer'),
     }
   },
   module: {

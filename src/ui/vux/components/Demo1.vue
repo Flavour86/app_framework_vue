@@ -1,9 +1,7 @@
 <template>
-  <div>
-    <x-Button>
-      按钮栗子
-    </x-Button>
-  </div>
+  <x-Button>
+    按钮栗子
+  </x-Button>
 </template>
 
 <script>

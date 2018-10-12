@@ -1,18 +1,18 @@
 import { getStateForGetter } from '../component/compute'
 import isObject from 'lodash/isObject'
-import {GETTERFIX} from '../../utils'
+import {GETTER_FIX, DEFAULT_GETTER} from '../../utils'
 import handleGetter from './utils/handleGetter'
-import getterHandler from '../../internal/getters'
+// import getterHandler from 'external/getters'
 
 export default function generateGetters (page) {
   const {name} = page
   let pageGetters = {}
   const stateForGetter = getStateForGetter()[name]
   isObject(stateForGetter) && Object.keys(stateForGetter).reduce((getters, key) => {
-    const getterKey = `${name}${stateForGetter[key]}${GETTERFIX}`
-    const handlerKey = `${stateForGetter[key]}${GETTERFIX}`
+    const getterKey = `${name}${stateForGetter[key] || DEFAULT_GETTER}${GETTER_FIX}`
+    const getterHandler = require(`external/getters/${stateForGetter[key] || DEFAULT_GETTER}`)
     if (!getters[getterKey]) {
-      getters[getterKey] = handleGetter(getterHandler[handlerKey], key)
+      getters[getterKey] = handleGetter(getterHandler, key)
     }
     return getters
   }, pageGetters)

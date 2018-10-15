@@ -5,26 +5,48 @@
       "indexRedirect": 1,
       "router": {
         "path": "/home",
-        "permission": -1
+        "permission": 0
       },
       "components": [
         {
-          "name": "hello-world",
+          "name": "x-header",
           "props": {
-            "msg": {
+            "title": "列表",
+            "left-options": {
               "type": "variable",
-              "value": "126"
+              "value": "1"
+            }
+          }
+        },
+        {
+          "name": "panel",
+          "props": {
+            "header": {
+              "type": "variable",
+              "value": "2"
             },
-            "msg1": "msgmsgmsg111",
-            "msg2": "msgmsgmsg222",
-            "dataList": {
+            "footer": {
               "type": "variable",
-              "value": "123"
+              "value": "3"
+            },
+            "type": "5",
+            "list": {
+              "type": "variable",
+              "value": "5"
             }
           },
-          "slot": {
-            "type": "text",
-            "value": "aaaaa"
+          "on": {
+            "on-img-error": {
+              "type": "event",
+              "value": "onImageError"
+            },
+            "on-click-item": {
+              "type": "event",
+              "value": "itemClickToDetail",
+              "params": [
+                "4"
+              ]
+            }
           }
         },
         {
@@ -33,7 +55,7 @@
             "click": {
               "type": "event",
               "value": "switchToRouter",
-              "params": ["124", "123"]
+              "params": ["124", "5"]
             }
           },
           "slot": {
@@ -48,24 +70,6 @@
               }
             ]
           }
-        },
-        {
-          "name": "x-Button",
-          "on": {
-            "click": {
-              "type": "action",
-              "value": "getLists",
-              "params": [],
-              "bind": "123"
-            }
-          },
-          "slot": {
-            "type": "text",
-            "value": "我是home页面的按钮2"
-          }
-        },
-        {
-          "name": "demo1"
         }
       ],
       "events": [
@@ -74,9 +78,9 @@
           "value": [
             {
               "type": "action",
-              "bind": "123",
+              "bind": "5",
               "value": "getLists",
-              "params": ["123"]
+              "params": ["5"]
             }
           ]
         },
@@ -86,7 +90,7 @@
             {
               "type": "event",
               "value": "attend",
-              "params": ["123", "124", "125"]
+              "params": ["5"]
             }
           ]
         }
@@ -98,67 +102,107 @@
         }
       ],
       "variable": [{
-        "id": "123",
+        "id": "1",
+        "props": "leftOptions",
+        "type": "Object",
+        "value": {"showBack": false},
+        "isShare": false
+      }, {
+        "id": "2",
+        "props": "panelHeader",
+        "type": "String",
+        "value": "这是列表的标题",
+        "isShare": false
+      }, {
+        "id": "3",
+        "props": "panelFooter",
+        "type": "Object",
+        "value": {
+          "title": "更多",
+          "url": "http://www.baidu.com"
+        },
+        "isShare": false
+      }, {
+        "id": "4",
+        "props": "detailPath",
+        "type": "String",
+        "value": "/detail",
+        "isShare": false
+      }, {
+        "id": "5",
         "props": "listDates",
         "type": "Array",
         "value": [],
         "isShare": true,
         "getter": "immediate"
-      }, {
-        "id": "124",
-        "props": "pageGo1",
-        "type": "String",
-        "value": "about",
-        "isShare": false
-      }, {
-        "id": "125",
-        "props": "pageGo2",
-        "type": "String",
-        "value": "about",
-        "isShare": false
-      }, {
-        "id": "126",
-        "props": "helloMsg",
-        "type": "String",
-        "value": "我是Home的helloWord组件的msg属性",
-        "isShare": false
       }]
     },
     {
-      "name": "about",
+      "name": "detail",
       "router": {
-        "path": "/about",
-        "permission": -1
+        "path": "/detail/:id",
+        "permission": 1
       },
       "components": [
         {
-          "name": "hello-world",
+          "name": "x-header",
           "props": {
-            "msg": "我是about的helloWord组件",
-            "msg1": "msgmsgmsg111",
-            "msg2": "msgmsgmsg222"
-          },
-          "content": "aaaa"
+            "title": "详情",
+            "left-options": {
+              "type": "variable",
+              "value": "3"
+            }
+          }
         },
         {
-          "name": "Button",
-          "content": "我是about页面",
-          "on": {
-            "click": {
-              "type": "event",
-              "value": "switchToRouter",
-              "params": [
-                {
-                  "type": "string",
-                  "value": "home"
-                }
-              ]
+          "name": "detail",
+          "props": {
+            "dataSour": {
+              "type": "variable",
+              "value": "1"
             }
           }
         }
       ],
+      "events": [
+        {
+          "eventType": "created",
+          "value": [
+            {
+              "type": "action",
+              "bind": "1",
+              "value": "getDetailById",
+              "params": [
+                "2"
+              ]
+            }
+          ]
+        }
+      ],
       "methods": [],
-      "variable": []
+      "variable": [
+        {
+          "id": "1",
+          "props": "dataSource",
+          "type": "Object",
+          "isShare": true,
+          "value": {},
+          "getter": "immediate"
+        },
+        {
+          "id": "2",
+          "props": "routeParams",
+          "type": "Router",
+          "isShare": false
+        },
+        {
+          "id": "3",
+          "props": "leftOptions",
+          "type": "Object",
+          "value": {"showBack": true},
+          "isShare": false
+        }
+      ]
     }
   ]
 }

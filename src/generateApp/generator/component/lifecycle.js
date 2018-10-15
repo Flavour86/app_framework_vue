@@ -17,7 +17,7 @@ export default function generateLifecycle (page) {
     if (event.eventType && !lifecycle[event.eventType]) {
       lifecycle[event.eventType] = function () {
         for (let i = 0; i < eventValue.length; i++) {
-          let args = variable.filter(vari => eventValue[i].fnParams.indexOf(vari.id) > -1).map(vari => vari.isShare ? this[vari.props] : vari.value)
+          let args = variable.filter(vari => eventValue[i].fnParams.indexOf(vari.id) > -1).map(vari => this[vari.props])
           this[eventValue[i].fnName].apply(this, args)
         }
       }

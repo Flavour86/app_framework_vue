@@ -1,6 +1,7 @@
-export default function getLists (options) {
+export default function getDetailById (options) {
+  console.log(options, 'getDetailById')
+  const {id} = options
   return new Promise((resolve, reject) => {
-    console.log('getLists', options)
     setTimeout(() => {
       const data = [
         {
@@ -87,8 +88,9 @@ export default function getLists (options) {
             other: '其他信息'
           }
         }
-      ]
+      ].filter(item => +item.id === +id)[0]
+      console.log(data)
       resolve(data)
-    }, 2000)
+    }, 1000)
   })
 }

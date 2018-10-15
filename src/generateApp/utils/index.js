@@ -10,12 +10,18 @@ export const MODE = {
   DEVELOPMENT: 'development',
   CONFIGURATION: 'configuration'
 }
-
+export const DATA_TYPE = {
+  ARRAY: 'Array',
+  OBJECT: 'Object',
+  STRING: 'String',
+  NUMBER: 'Number',
+  ROUTER: 'Router'
+}
 export const INIT_TYPE_MAP = {
-  'Array': [],
-  'Object': {},
-  'String': '',
-  'Number': 0
+  [DATA_TYPE.ARRAY]: [],
+  [DATA_TYPE.OBJECT]: {},
+  [DATA_TYPE.STRING]: '',
+  [DATA_TYPE.NUMBER]: 0
 }
 
 export const GETTER_FIX = 'Getter'

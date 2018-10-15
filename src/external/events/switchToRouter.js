@@ -1,4 +1,4 @@
 export default function switchToRouter (to) {
-  console.log(to, '22')
+  if (!to) return
   this.$router.push(to)
 }

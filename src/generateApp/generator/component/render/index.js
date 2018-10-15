@@ -6,9 +6,13 @@ function generateEvent (onConfig, vm, config) {
   if (!onConfig.generateEvent) {
     const {variable} = config
     Object.keys(onConfig).forEach(e => {
-      const args = onConfig[e].params.map(id => variable.filter(vari => vari.id === id)[0]).map(vari => vari.isShare ? vm[vari.props] : vari.value)
+      const args = isArray(onConfig[e].params) ? onConfig[e].params.map(id => variable.filter(vari => vari.id === id)[0]).filter(val => Boolean(val)).map(vari => vari && vari.isShare ? vm[vari.props] : vari.value) : []
       const value = onConfig[e].value
-      onConfig[e] = (vm[value] || noop).bind(vm, ...args)
+      /* eslint-disable */
+      onConfig[e] = function (...argv) {
+        const {params} = this.$route
+        ;(vm[value] || noop).apply(vm, [params, ...args, ...argv])
+      }.bind(vm)
     })
     onConfig.generateEvent = true
   }

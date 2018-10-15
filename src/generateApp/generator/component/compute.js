@@ -1,6 +1,6 @@
 import { mapGetters } from 'vuex'
 import {warn} from '@/utils/helpers'
-import {GETTER_FIX} from '../../utils'
+import {GETTER_FIX, DEFAULT_GETTER} from '../../utils'
 
 let stateForGetter = {}
 
@@ -12,14 +12,13 @@ export default function generateCompute (page) {
   variable = variable.filter(vari => vari.isShare)
   variable.reduce((computes, vari) => {
     if (!computes[vari.props]) {
-      computes[vari.props] = `${name}${vari.getter}${GETTER_FIX}`
+      computes[vari.props] = `${name}${vari.getter || DEFAULT_GETTER}${GETTER_FIX}`
     } else {
       warn(`Duplicate variable key ${vari.props}, please check`)
     }
     collectStateForGetter(name, vari)
     return computes
   }, compute)
-
   return {
     ...mapGetters(compute)
   }

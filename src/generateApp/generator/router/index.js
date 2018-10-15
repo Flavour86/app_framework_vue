@@ -10,15 +10,16 @@ export default function generateRouter (config, routes) {
     console.error('config is not parsed!')
     return
   }
+  const redirectPage = pages.filter(page => page.indexRedirect)[0]
   // let routers = []
+  if (redirectPage) {
+    rootRouter.redirect = redirectPage.router.path
+    routes.push(rootRouter)
+  }
   pages.forEach((page, index) => {
     const {name, router} = page
     if (router) {
       const {path, permission} = router
-      if (!!page.indexRedirect && !rootRouter.redirect) {
-        rootRouter.redirect = path
-      }
-      routes.push(rootRouter)
       let temp = {
         path,
         name,
@@ -32,4 +33,5 @@ export default function generateRouter (config, routes) {
       routes.push(temp)
     }
   })
+  console.log(routes, 'routes')
 }

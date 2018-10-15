@@ -155,7 +155,7 @@
           }
         },
         {
-          "name": "detail",
+          "name": "c-detail",
           "props": {
             "dataSour": {
               "type": "variable",

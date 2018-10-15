@@ -23,6 +23,11 @@ export default Vue.extend({
     //   })
     // }
     // console.log(ctx, ctx.slots())
-    return h('div', ctx.slots().default)
+    return h('div', {
+      style: {
+        height: '100%',
+        width: '100%'
+      }
+    }, ctx.slots().default)
   }
 })

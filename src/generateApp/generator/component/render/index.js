@@ -6,7 +6,7 @@ function generateEvent (onConfig, vm, config) {
   if (!onConfig.generateEvent) {
     const {variable} = config
     Object.keys(onConfig).forEach(e => {
-      const args = isArray(onConfig[e].params) ? onConfig[e].params.map(id => variable.filter(vari => vari.id === id)[0]).filter(val => Boolean(val)).map(vari => vari && vari.isShare ? vm[vari.props] : vari.value) : []
+      const args = isArray(onConfig[e].params) ? onConfig[e].params.map(id => variable.filter(vari => vari.id === id)[0]).filter(vari => vari !== undefined).map(vari => vari && vari.isShare ? vm[vari.props] : vari.value) : []
       const value = onConfig[e].value
       /* eslint-disable */
       onConfig[e] = function (...argv) {

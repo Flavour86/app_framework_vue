@@ -28,7 +28,6 @@ export default function entrance (config, opts = {}) {
     ui
   })
   generateStart(config)
-  console.log(routerOptions, 'main')
   return new Vue({
     store: storeFn(),
     router: new Router(routerOptions),

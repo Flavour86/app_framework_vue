@@ -33,5 +33,4 @@ export default function generateRouter (config, routes) {
       routes.push(temp)
     }
   })
-  console.log(routes, 'routes')
 }

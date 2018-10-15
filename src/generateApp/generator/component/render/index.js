@@ -22,7 +22,7 @@ function generateEvent (onConfig, vm, config) {
 
 function generateComs (h, components, vm, config) {
   return components.map(com => {
-    let {name, slot, on, props, ...other} = com
+    let {name, children, on, props, ...other} = com
     if (on) {
       on = generateEvent(on, vm, config)
       other.on = on
@@ -30,11 +30,11 @@ function generateComs (h, components, vm, config) {
     if (props) {
       other.props = generateProps(props, vm, config)
     }
-    if (slot) {
-      if (slot.type === 'components' && isArray(slot.value)) {
-        return h(name, other, generateComs(h, slot.value, vm, config))
+    if (children) {
+      if (children.type === 'components' && isArray(children.value)) {
+        return h(name, other, generateComs(h, children.value, vm, config))
       } else {
-        return h(name, other, slot.value)
+        return h(name, other, children.value)
       }
     }
     return h(name, other)

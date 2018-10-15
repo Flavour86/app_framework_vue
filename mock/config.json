@@ -58,12 +58,12 @@
               "params": ["124", "5"]
             }
           },
-          "slot": {
+          "children": {
             "type": "components",
             "value": [
               {
                 "name": "x-Button",
-                "slot": {
+                "children": {
                   "type": "text",
                   "value": "我是home页面组件的子组件"
                 }
@@ -152,6 +152,19 @@
               "type": "variable",
               "value": "3"
             }
+          },
+          "children": {
+            "type": "components",
+            "value": [
+              {
+                "name": "div",
+                "slot": "right",
+                "children": {
+                  "type": "text",
+                  "value": "i am right"
+                }
+              }
+            ]
           }
         },
         {

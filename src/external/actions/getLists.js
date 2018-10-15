@@ -1,6 +1,5 @@
 export default function getLists (options) {
   return new Promise((resolve, reject) => {
-    console.log('getLists', options)
     setTimeout(() => {
       const data = [
         {
@@ -89,6 +88,6 @@ export default function getLists (options) {
         }
       ]
       resolve(data)
-    }, 2000)
+    }, 1000)
   })
 }

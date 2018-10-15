@@ -37,14 +37,14 @@ export default function generateMethods (page) {
   function generateByComs (coms) {
     if (isArray(coms)) {
       coms.forEach(com => {
-        const {on, slot} = com
+        const {on, children} = com
         isObject(on) && Object.keys(on).forEach(e => {
           if (on[e]) {
             on[e].type === ACTIONS_TYPE.ACTION ? setAction(on[e]) : setEvent(on[e])
           }
         })
-        if (slot && slot.type === SLOT_TYPE.COMPONENT) {
-          generateByComs(slot.value)
+        if (children && children.type === SLOT_TYPE.COMPONENT) {
+          generateByComs(children.value)
         }
       })
     }

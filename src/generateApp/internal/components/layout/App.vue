@@ -1,12 +1,26 @@
 <template>
   <div id="app">
-    <router-view/>
+    <keep-alive>
+      <router-view v-if="$route.meta.keepAlive"></router-view>
+    </keep-alive>
+
+    <!-- 这里不会被keepalive -->
+    <router-view v-if="!$route.meta.keepAlive"></router-view>
+    <!--<z-toast text="aaa" type="success" :value="value" />-->
+    <z-loading />
   </div>
 </template>
 
 <script>
+// import ZToast from '../common/toast.vue'
+// import ZLoading from '../common/loading.vue'
 export default {
-  name: 'App'
+  name: 'App',
+  data () {
+    return {
+      value: true
+    }
+  }
 }
 </script>
 

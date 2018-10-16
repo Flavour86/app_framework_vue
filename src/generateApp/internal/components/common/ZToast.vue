@@ -1,0 +1,108 @@
+<template>
+  <div class="z-toast">
+    <div class="z-mask" v-show="isShowMask && show"></div>
+    <div class="z-toast_con" :style="{width: width, height: height}" :class="toastClass" v-show="show">
+      <z-icon className="z-toast_icon" v-show="type !== 'text'" :type="type"></z-icon>
+      <p class="z-toast__content" v-if="!!text" v-text="text"></p>
+      <p class="z-toast__content" v-else>
+        <slot></slot>
+      </p>
+    </div>
+  </div>
+</template>
+<script>
+export default {
+  name: 'ZToast',
+  props: {
+    value: Boolean,
+    time: {
+      type: Number,
+      default: 2000
+    },
+    type: {
+      type: String,
+      default: 'success'
+    },
+    width: {
+      type: String,
+      default: '150px'
+    },
+    height: {
+      type: String,
+      default: '120px'
+    },
+    isShowMask: {
+      type: Boolean,
+      default: true
+    },
+    text: String
+  },
+  data () {
+    return {
+      show: false
+    }
+  },
+  created () {
+    this.show = this.value
+  },
+  computed: {
+    toastClass () {
+      return {
+        'z-toast_warn': this.type === 'warn',
+        'z-toast_error': this.type === 'error',
+        'z-toast_success': this.type === 'success',
+        'z-toast_text': this.type === 'text'
+      }
+    }
+  },
+  watch: {
+    show (val) {
+      if (val) {
+        clearTimeout(this.timeout)
+        this.timeout = setTimeout(() => {
+          this.show = false
+        }, this.time)
+      }
+    },
+    value (val) {
+      this.show = val
+    }
+  }
+}
+</script>
+
+<style lang="postcss" scoped>
+.z-toast {
+  .z-mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.3);
+    z-index: 1000;
+  }
+  .z-toast_con {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 1020;
+    background-color: rgba(0,0,0,0.85);
+    border-radius: 5px;
+    padding: 20px 15px 10px;
+    text-align: center;
+  }
+  .z-toast__content {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 10px;
+  }
+  .z-toast_icon {
+    font-size: 38px;
+    color: #fff;
+  }
+}
+</style>

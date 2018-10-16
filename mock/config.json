@@ -190,6 +190,19 @@
               ]
             }
           ]
+        },
+        {
+          "eventType": "destroyed",
+          "value": [
+            {
+              "type": "action",
+              "bind": "1",
+              "value": "initDataSource",
+              "params": [
+                "4"
+              ]
+            }
+          ]
         }
       ],
       "methods": [],
@@ -199,8 +212,7 @@
           "props": "dataSource",
           "type": "Object",
           "isShare": true,
-          "value": {},
-          "getter": "immediate"
+          "value": {}
         },
         {
           "id": "2",
@@ -213,6 +225,13 @@
           "props": "leftOptions",
           "type": "Object",
           "value": {"showBack": true},
+          "isShare": false
+        },
+        {
+          "id": "4",
+          "props": "initData",
+          "type": "Object",
+          "value": {},
           "isShare": false
         }
       ]

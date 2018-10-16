@@ -8,7 +8,7 @@ export default function generateMutation (page) {
   const binds = getBinds()[name]
   isObject(binds) && Object.keys(binds).forEach(type => {
     if (!mutations[type]) {
-      mutations[type] = handleAction((state, action) => {
+      mutations[type] = handleAction((state, action, rootState) => {
         state[binds[type]] = action
       })
     }

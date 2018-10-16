@@ -27,7 +27,10 @@ export default function generateAction (page) {
     }
   })
   actionTypeEvents.forEach(action => {
-    const actionFn = require(`external/actions/${action.value}`)
+    let actionFn
+    try {
+      actionFn = require(`external/actions/${action.value}`)
+    } catch (e) {}
     !pageActions[action.value] && (pageActions[action.value] = createAction(action.value, actionFn))
     collectBind(name, action)
   })

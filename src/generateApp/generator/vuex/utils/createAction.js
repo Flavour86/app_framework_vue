@@ -16,14 +16,17 @@ const dispatchAction = (commit, action, status) => {
 }
 
 const commitAsPending = (commit, action) => {
+  commit('CHANGE_STATUS', STATUS.PENDING)
   dispatchAction(commit, action, STATUS.PENDING)
 }
 
 const commitAsSuccess = (commit, action) => {
+  commit('CHANGE_STATUS', STATUS.SUCCESS)
   dispatchAction(commit, action, STATUS.SUCCESS)
 }
 
 const commitAsError = (commit, action) => {
+  commit('CHANGE_STATUS', STATUS.ERROR)
   dispatchAction(commit, action, STATUS.ERROR)
 }
 

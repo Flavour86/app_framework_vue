@@ -18,9 +18,6 @@ export default {
       type: Object,
       default: () => {}
     }
-  },
-  created () {
-    console.log(this.dataSour, '22')
   }
 }
 </script>

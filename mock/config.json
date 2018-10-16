@@ -54,8 +54,8 @@
           "on": {
             "click": {
               "type": "event",
-              "value": "switchToRouter",
-              "params": ["124", "5"]
+              "value": "showMessage",
+              "params": ["6"]
             }
           },
           "children": {
@@ -135,6 +135,16 @@
         "value": [],
         "isShare": true,
         "getter": "immediate"
+      }, {
+        "id": "6",
+        "props": "toastOption",
+        "type": "Object",
+        "value": {
+          "text": "我是按钮按钮",
+          "value": true,
+          "type": "warn"
+        },
+        "isShare": false
       }]
     },
     {

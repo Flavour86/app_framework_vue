@@ -6,7 +6,8 @@ export const hasDeps = fn => getDeps(fn) !== null
 export const STATUS = {
   PENDING: 'pending',
   SUCCESS: 'success',
-  ERROR: 'error'
+  ERROR: 'error',
+  INIT: 'init'
 }
 
 export const getDeps = fn => {

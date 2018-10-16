@@ -8,6 +8,7 @@
     <router-view v-if="!$route.meta.keepAlive"></router-view>
     <!--<z-toast text="aaa" type="success" :value="value" />-->
     <z-loading />
+    <z-toast :value="value" :text="text" :width="width" :height="height" :time="time" :type="type" :isShowMask="isShowMask" />
   </div>
 </template>
 
@@ -18,8 +19,20 @@ export default {
   name: 'App',
   data () {
     return {
-      value: true
+      value: false,
+      text: null,
+      width: null,
+      height: null,
+      time: null,
+      type: null,
+      isShowMask: null
     }
+  },
+  mounted () {
+    this.$on('showToast', options => {
+      console.log(11, options)
+      Object.assign(this, options)
+    })
   }
 }
 </script>

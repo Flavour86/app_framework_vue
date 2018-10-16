@@ -4,11 +4,26 @@
   </z-toast>
 </template>
 <script>
+import { mapState } from 'vuex'
+import {STATUS} from '../../../generator/vuex/utils/helpers'
 export default {
   name: 'ZLoading',
   data () {
     return {
-      value: true
+      value: false
+    }
+  },
+  created () {
+    this.value = this.status && this.status === STATUS.PENDING
+  },
+  computed: {
+    ...mapState({
+      status: state => state.global.RECEIVE_STATUS
+    })
+  },
+  watch: {
+    status (val, oldVal) {
+      this.value = val === STATUS.PENDING
     }
   }
 }

@@ -3,6 +3,7 @@ import isArray from 'lodash/isArray'
 import isObject from 'lodash/isObject'
 import { mapActions } from 'vuex'
 import {ACTIONS_TYPE, SLOT_TYPE} from '../../utils'
+import initMixin from './mixins'
 
 export default function generateMethods (page) {
   let methods = {}
@@ -57,7 +58,7 @@ export default function generateMethods (page) {
   }
 
   function setEvent (event) {
-    if (event && event.value && !methods[event.value]) {
+    if (event && event.value && !methods[event.value] && !initMixin['methods'][event.value]) {
       const eventFn = require(`external/events/${event.value}`)
       methods[event.value] = eventFn
     }

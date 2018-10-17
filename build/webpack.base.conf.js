@@ -22,7 +22,7 @@ const createLintingRule = () => ({
 const plugins = [
   'vux-ui'
 ]
-utils.isProduction ? plugins.push('duplicate-style') : null
+// utils.isProduction ? plugins.push('duplicate-style') : null
 
 module.exports = vuxLoader.merge({
   context: path.resolve(__dirname, '../'),

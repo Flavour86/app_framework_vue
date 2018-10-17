@@ -1,7 +1,7 @@
 <template>
   <div class="z-toast">
-    <div class="z-mask" v-show="isShowMask && show"></div>
-    <div class="z-toast_con" :style="{width: width, height: height}" :class="toastClass" v-show="show">
+    <div class="z-mask" v-show="toastShowMask && show"></div>
+    <div class="z-toast_con" :style="toastStyle" :class="toastClass" v-show="show">
       <z-icon className="z-toast_icon" v-show="type !== 'text'" :type="type"></z-icon>
       <p class="z-toast__content" v-if="!!text" v-text="text"></p>
       <p class="z-toast__content" v-else>
@@ -11,26 +11,18 @@
   </div>
 </template>
 <script>
+import {$bus} from '../../../utils'
 export default {
   name: 'ZToast',
   props: {
     value: Boolean,
-    time: {
-      type: Number,
-      default: 2000
-    },
+    time: Number,
     type: {
       type: String,
       default: 'success'
     },
-    width: {
-      type: String,
-      default: '150px'
-    },
-    height: {
-      type: String,
-      default: '120px'
-    },
+    width: String,
+    height: String,
     isShowMask: {
       type: Boolean,
       default: true
@@ -53,6 +45,18 @@ export default {
         'z-toast_success': this.type === 'success',
         'z-toast_text': this.type === 'text'
       }
+    },
+    toastStyle () {
+      return {
+        width: this.width || '150px',
+        height: this.height || '120px'
+      }
+    },
+    toastShowMask () {
+      return (this.isShowMask !== undefined && this.isShowMask !== null) ? this.isShowMask : true
+    },
+    toastTime () {
+      return this.time || 2000
     }
   },
   watch: {
@@ -61,7 +65,8 @@ export default {
         clearTimeout(this.timeout)
         this.timeout = setTimeout(() => {
           this.show = false
-        }, this.time)
+          $bus.$emit('toastHide', false)
+        }, this.toastTime)
       }
     },
     value (val) {
@@ -83,12 +88,10 @@ export default {
     z-index: 1000;
   }
   .z-toast_con {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     z-index: 1020;
     background-color: rgba(0,0,0,0.85);
     border-radius: 5px;

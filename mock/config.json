@@ -141,8 +141,8 @@
         "type": "Object",
         "value": {
           "text": "我是按钮按钮",
-          "value": true,
-          "type": "warn"
+          "isShowToast": true,
+          "type": "error"
         },
         "isShare": false
       }]
@@ -198,6 +198,11 @@
               "params": [
                 "2"
               ]
+            },
+            {
+              "type": "action",
+              "bind": "5",
+              "value": "getListByQueue"
             }
           ]
         },
@@ -243,6 +248,13 @@
           "type": "Object",
           "value": {},
           "isShare": false
+        },
+        {
+          "id": "5",
+          "props": "queueData",
+          "type": "Object",
+          "value": {},
+          "isShare": true
         }
       ]
     }

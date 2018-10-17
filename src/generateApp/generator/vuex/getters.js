@@ -1,7 +1,7 @@
 import { getStateForGetter } from '../component/compute'
 import isObject from 'lodash/isObject'
 import {GETTER_FIX, DEFAULT_GETTER} from '../../utils'
-import handleGetter from './utils/handleGetter'
+import handleGetter from '@/utils/vuexUtils/handleGetter'
 // import getterHandler from 'external/getters'
 
 export default function generateGetters (page) {

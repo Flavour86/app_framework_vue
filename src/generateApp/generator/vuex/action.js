@@ -1,6 +1,6 @@
 import isArray from 'lodash/isArray'
 import {warn} from '@/utils/helpers'
-import createAction from './utils/createAction'
+import createAction from '@/utils/vuexUtils/createAction'
 // import actions from 'external/actions'
 import {ACTIONS_TYPE, SLOT_TYPE} from '../../utils'
 

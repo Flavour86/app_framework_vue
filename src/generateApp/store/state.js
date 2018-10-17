@@ -1,4 +1,4 @@
-import {STATUS} from '../generator/vuex/utils/helpers'
+import {STATUS} from '../../utils/vuexUtils/helpers'
 
 export default {
   global: {

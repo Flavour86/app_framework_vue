@@ -1,5 +1,5 @@
 import {getBinds} from './action'
-import handleAction from './utils/handleAction'
+import handleAction from '@/utils/vuexUtils/handleAction'
 import isObject from 'lodash/isObject'
 
 export default function generateMutation (page) {

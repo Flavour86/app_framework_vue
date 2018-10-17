@@ -1,8 +1,9 @@
+import { $bus } from '../../utils'
+
 const initMixin = {
   methods: {
-    showMessage (options) {
-      console.log(options, this)
-      this.$emit('showToast', options)
+    showMessage ($route, options) {
+      $bus.$emit('showToast', options)
     }
   }
 }

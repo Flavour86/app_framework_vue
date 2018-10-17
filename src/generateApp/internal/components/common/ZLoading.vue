@@ -5,7 +5,7 @@
 </template>
 <script>
 import { mapState } from 'vuex'
-import {STATUS} from '../../../generator/vuex/utils/helpers'
+import {STATUS} from '../../../../utils/vuexUtils/helpers'
 export default {
   name: 'ZLoading',
   data () {

@@ -8,18 +8,17 @@
     <router-view v-if="!$route.meta.keepAlive"></router-view>
     <!--<z-toast text="aaa" type="success" :value="value" />-->
     <z-loading />
-    <z-toast :value="value" :text="text" :width="width" :height="height" :time="time" :type="type" :isShowMask="isShowMask" />
+    <z-toast :value="isShowToast" :text="text" :width="width" :height="height" :time="time" :type="type" :isShowMask="isShowMask" />
   </div>
 </template>
 
 <script>
-// import ZToast from '../common/toast.vue'
-// import ZLoading from '../common/loading.vue'
+import {$bus} from '../../../utils'
 export default {
   name: 'App',
   data () {
     return {
-      value: false,
+      isShowToast: false,
       text: null,
       width: null,
       height: null,
@@ -29,9 +28,11 @@ export default {
     }
   },
   mounted () {
-    this.$on('showToast', options => {
-      console.log(11, options)
+    $bus.$on('showToast', options => {
       Object.assign(this, options)
+    })
+    $bus.$on('toastHide', val => {
+      this.isShowToast = val
     })
   }
 }

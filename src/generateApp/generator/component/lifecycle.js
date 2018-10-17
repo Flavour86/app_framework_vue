@@ -9,7 +9,7 @@ export default function generateLifecycle (page) {
       event.value.reduce((eventValue, val) => {
         val.value && eventValue.push({
           fnName: val.value,
-          fnParams: val.params
+          fnParams: val.params || []
         })
         return eventValue
       }, eventValue)

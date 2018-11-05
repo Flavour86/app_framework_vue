@@ -5,7 +5,7 @@ import('../mock/config.json').then(config => {
   config = parserStart(config)
 
   entrance(config, {
-    mode: 'configuration', // 配置模式
+    mode: 'configuration', // 配置模式111111
     plugins: [
       ui
     ]
